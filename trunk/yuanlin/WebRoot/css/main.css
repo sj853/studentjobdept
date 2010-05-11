@@ -33,15 +33,19 @@ body {
 	text-align:center;
     
 }
-
-#content {#74bfff
-    margin: 0 900px !important;
-    width: 100% #c8c8c8 margin: 0 auto;
-    height:
-    500px;
-    background:
-    #cff;
+#mainContent div{
+    margin: 0 auto !important;
+    width: 100% #c8c8c8;
+	margin: 0 auto;
+    height:auto;
+	background-color:#8000ff;
+	display:none;
 }
+#mainContent .showContent{
+	display:block;
+}
+
+
 
 #footer {
 	width:100%;
