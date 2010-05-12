@@ -1,0 +1,306 @@
+.hearder {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 960px; PADDING-RIGHT: 0px; BACKGROUND: #fff; HEIGHT: 164px; PADDING-TOP: 0px
+}
+.hearder .topNav {
+	BORDER-BOTTOM: #dbdbdb 0px solid; BORDER-LEFT: #dbdbdb 1px solid; LINE-HEIGHT: 26px; WIDTH: 958px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/pcheaderbg.gif) repeat-x 0px 0px; HEIGHT: 26px; OVERFLOW: hidden; BORDER-TOP: #dbdbdb 1px solid; BORDER-RIGHT: #dbdbdb 1px solid
+}
+.hearder .topNav #ajaxLogon {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; WIDTH: 505px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 24px; PADDING-TOP: 2px
+}
+.hearder .siteLink {
+	TEXT-ALIGN: right; WIDTH: 425px; PADDING-RIGHT: 15px; FLOAT: right; HEIGHT: 26px; COLOR: #686868
+}
+.hearder .siteLink A:link {
+	COLOR: #686868
+}
+.hearder .siteLink A:visited {
+	COLOR: #686868
+}
+.hearder .topNav .siteLink A:hover {
+	COLOR: #f60
+}
+.hearder .topNav .aMap {
+	PADDING-LEFT: 10px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/pcheaderbg.gif) no-repeat 0px -290px
+}
+.hearder .mainNav {
+	WIDTH: 960px; HEIGHT: 110px
+}
+.hearder .pcLogo {
+	BORDER-LEFT: #dbdbdb 1px solid; WIDTH: 155px; FLOAT: left; HEIGHT: 109px; BORDER-TOP: #dbdbdb 1px solid; BORDER-RIGHT: #cacfe3 1px solid
+}
+.hearder .pcLogo IMG {
+	VERTICAL-ALIGN: top
+}
+.hearder .mainMenu {
+	WIDTH: 792px; FLOAT: left; HEIGHT: 110px; BORDER-RIGHT: #cacfe3 1px solid
+}
+.hearder .topMenu {
+	LINE-HEIGHT: 29px; WIDTH: 796px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/pcheaderbg.gif) repeat-x 0px -26px; HEIGHT: 29px
+}
+.hearder .topMenu UL LI {
+	BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/pcheaderbg.gif) no-repeat 0px -178px; FLOAT: left
+}
+.hearder .topMenu A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+.hearder .topMenu A:link {
+	COLOR: #fff
+}
+.hearder .topMenu A:visited {
+	COLOR: #fff
+}
+.hearder .topMenu A.own:link {
+	COLOR: #ff0
+}
+.hearder .topMenu A.own:visited {
+	COLOR: #ff0
+}
+.hearder .topMenu UL .own {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.hearder #topMenu {
+	PADDING-LEFT: 4px; WIDTH: 798px
+}
+.hearder .topMenu A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 9px; PADDING-TOP: 0px
+}
+.hearder .topMenu A.own {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.hearder .iconMenu {
+	WIDTH: 802px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/pcheaderbg.gif) repeat-x 0px -55px; HEIGHT: 55px; OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.hearder .iconMenu UL {
+	FLOAT: left; HEIGHT: 55px
+}
+.hearder .iconMenu UL LI {
+	TEXT-ALIGN: center; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/pciconbg.gif) no-repeat; FLOAT: left; HEIGHT: 51px
+}
+.hearder .iconMenu UL LI A {
+	DISPLAY: block; HEIGHT: 16px; TEXT-DECORATION: none; PADDING-TOP: 35px
+}
+.hearder .iconMenu UL LI A:hover {
+	COLOR: #000
+}
+.hearder .iconMenu UL .liMp3 A {
+	DISPLAY: inline; HEIGHT: 16px; PADDING-TOP: 0px
+}
+.hearder .iconMenu UL .liMp3On A {
+	DISPLAY: inline; HEIGHT: 16px; PADDING-TOP: 0px
+}
+.hearder .iconMenu UL .liMp3 A.own {
+	Z-INDEX: 2; POSITION: relative; WIDTH: 48px; DISPLAY: block; HEIGHT: 35px; PADDING-TOP: 0px
+}
+.hearder .iconMenu UL .liMp3On A.own {
+	Z-INDEX: 2; POSITION: relative; WIDTH: 48px; DISPLAY: block; HEIGHT: 35px; PADDING-TOP: 0px
+}
+.hearder .iconMenu .ulDigi {
+	PADDING-LEFT: 11px; WIDTH: 400px
+}
+.hearder .iconMenu .ulDigi LI {
+	MARGIN-RIGHT: 2px
+}
+.hearder .iconMenu .ulNb {
+	PADDING-LEFT: 5px; WIDTH: 122px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/pcheaderbg.gif) no-repeat 0px -224px
+}
+.hearder .iconMenu .ulDiy {
+	PADDING-LEFT: 6px; WIDTH: 52px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/pcheaderbg.gif) no-repeat 0px -224px
+}
+.hearder .iconMenu .ulDiytxt {
+	WIDTH: 200px
+}
+.hearder .iconMenu .liDigi {
+	WIDTH: 57px; BACKGROUND-POSITION: 0px -67px
+}
+.hearder .iconMenu .liMobile {
+	WIDTH: 35px; BACKGROUND-POSITION: -57px -67px
+}
+.hearder .iconMenu .liDc {
+	WIDTH: 53px; BACKGROUND-POSITION: -92px -67px
+}
+.hearder .iconMenu .liDv {
+	WIDTH: 41px; BACKGROUND-POSITION: -148px -67px
+}
+.hearder .iconMenu .liMp3 {
+	WIDTH: 48px; BACKGROUND-POSITION: -193px -67px
+}
+.hearder .iconMenu .liFamily {
+	WIDTH: 52px; BACKGROUND-POSITION: -241px -67px; OVERFLOW: hidden
+}
+.hearder .iconMenu .liFamily A.own {
+	Z-INDEX: 2; POSITION: relative; WIDTH: 48px; DISPLAY: block; HEIGHT: 35px; PADDING-TOP: 0px
+}
+.hearder .iconMenu .liFamilyOn A.own {
+	Z-INDEX: 2; POSITION: relative; WIDTH: 48px; DISPLAY: block; HEIGHT: 35px; PADDING-TOP: 0px
+}
+.hearder .iconMenu .liFamily .jd {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 1px 0px -18px; PADDING-LEFT: 0px; WIDTH: 30px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.hearder .iconMenu .liFamily .gq {
+	PADDING-BOTTOM: 0px; MARGIN: -16px 1px 0px 28px; PADDING-LEFT: 0px; WIDTH: 26px; PADDING-RIGHT: 0px; COLOR: #f00; PADDING-TOP: 0px
+}
+.hearder .iconMenu .liFamily A:hover {
+	COLOR: #f00
+}
+.hearder .iconMenu .liGps {
+	WIDTH: 42px; BACKGROUND-POSITION: -293px -67px
+}
+.hearder .iconMenu .liMst {
+	WIDTH: 53px; BACKGROUND-POSITION: -336px -67px
+}
+.hearder .iconMenu .liNb {
+	WIDTH: 41px; BACKGROUND-POSITION: -401px -67px
+}
+.hearder .iconMenu .liDesk {
+	WIDTH: 40px; BACKGROUND-POSITION: -452px -67px
+}
+.hearder .iconMenu .liUmpc {
+	WIDTH: 37px; BACKGROUND-POSITION: -494px -67px
+}
+.hearder .iconMenu .liDiy {
+	WIDTH: 52px; BACKGROUND-POSITION: -537px -67px
+}
+.hearder .iconMenu .ulDiytxt {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 0px; HEIGHT: 45px; PADDING-TOP: 10px
+}
+.hearder .iconMenu .ulDiytxt LI {
+	BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 20px
+}
+.hearder .iconMenu .ulDiytxt LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; PADDING-TOP: 0px; _float: left
+}
+.hearder .iconMenu .ulDiytxt LI A:hover {
+	COLOR: #f60; TEXT-DECORATION: underline
+}
+.hearder .botMenu {
+	LINE-HEIGHT: 22px; PADDING-LEFT: 6px; WIDTH: 796px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/pcheaderbg.gif) repeat-x 0px -114px; HEIGHT: 22px
+}
+.hearder .botMenu UL LI {
+	FLOAT: left
+}
+.hearder .botMenu UL LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 6px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+.hearder #botMenu UL LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 0px
+}
+.hearder .botMenu A.hot {
+	COLOR: #ff0000
+}
+.hearder .marketMenu {
+	BORDER-BOTTOM: #dbdbdb 1px solid; BORDER-LEFT: #dbdbdb 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 21px; PADDING-LEFT: 5px; WIDTH: 953px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/pcheaderbg.gif) repeat-x 0px -136px; HEIGHT: 21px; OVERFLOW: hidden; BORDER-TOP: #dbdbdb 0px solid; BORDER-RIGHT: #dbdbdb 1px solid; PADDING-TOP: 3px
+}
+.hearder .marketMenu A:link {
+	COLOR: #033983
+}
+.hearder .marketMenu A:visited {
+	COLOR: #033983
+}
+.hearder .marketMenu A:hover {
+	COLOR: #f60
+}
+.hearder .marketMenu UL {
+	FLOAT: left
+}
+.hearder .marketMenu LI {
+	FLOAT: left
+}
+.hearder .marketMenu .ulMarket {
+	WIDTH: 765px
+}
+.hearder .marketMenu .ulMarket LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 0px
+}
+.hearder .marketMenu .ulOther {
+	WIDTH: 178px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/pcheaderbg.gif) no-repeat 0px -332px
+}
+.hearder .marketMenu .ulOther LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 9px; PADDING-RIGHT: 2px; PADDING-TOP: 0px
+}
+.hearder .marketMenu .ulAdd0316 LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 2px; PADDING-TOP: 0px
+}
+.txtinput {
+	WIDTH: 100px; DISPLAY: inline; FLOAT: left; MARGIN-RIGHT: 10px
+}
+.txtinput INPUT {
+	BORDER-BOTTOM: #b1b1b1 1px solid; BORDER-LEFT: #b1b1b1 1px solid; LINE-HEIGHT: 16px; WIDTH: 98px; HEIGHT: 15px; COLOR: #444; BORDER-TOP: #b1b1b1 1px solid; BORDER-RIGHT: #b1b1b1 1px solid
+}
+.txtinput INPUT.uname {
+	BACKGROUND: url(http://www1.pconline.com.cn/2008/images/bg2008.gif) no-repeat -109px -534px
+}
+.txtinput INPUT.upwd {
+	BACKGROUND: url(http://www1.pconline.com.cn/2008/images/bg2008.gif) no-repeat 0px -534px
+}
+.btninput {
+	MARGIN-TOP: 1px; WIDTH: 120px; FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 10px
+}
+.btninput INPUT {
+	LINE-HEIGHT: 22px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 49px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/0907/logon_0907.gif) no-repeat 0px -21px; FLOAT: left; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #777; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; MARGIN-RIGHT: 10px
+}
+.loginselect {
+	POSITION: relative; MARGIN-TOP: 1px; WIDTH: 100px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+#loginselectdis {
+	TEXT-ALIGN: center; LINE-HEIGHT: 19px; WIDTH: 80px; PADDING-RIGHT: 19px; DISPLAY: block; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/0907/logon_0907.gif) #fff no-repeat; HEIGHT: 19px; COLOR: #777; OVERFLOW: hidden; CURSOR: pointer
+}
+#loginopt {
+	BORDER-BOTTOM: #75a3bd 1px solid; POSITION: absolute; FILTER: progid:DXImageTransform.Microsoft.Alpha(opacity=90); BORDER-LEFT: #75a3bd 1px solid; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 97px; PADDING-RIGHT: 0px; BACKGROUND: #eff2f7; OVERFLOW: hidden; BORDER-TOP: #75a3bd 1px solid; BORDER-RIGHT: #75a3bd 1px solid; PADDING-TOP: 5px; -moz-opacity: .9; opacity: 0.9
+}
+#loginopt LI {
+	TEXT-ALIGN: left; LINE-HEIGHT: 22px; HEIGHT: 20px; OVERFLOW: hidden
+}
+#loginopt LI A {
+	MARGIN: 0px 5px; PADDING-LEFT: 12px; DISPLAY: block; HEIGHT: 20px; OVERFLOW: hidden
+}
+#loginopt LI A:hover {
+	BACKGROUND: #dee7f0; TEXT-DECORATION: none
+}
+#loginFldselectop LI A:active {
+	BACKGROUND: #dee7f0; TEXT-DECORATION: none
+}
+.logined {
+	PADDING-LEFT: 20px; BACKGROUND: url(http://www1.pconline.com.cn/2008/images/bg2008.gif) no-repeat -280px -557px; HEIGHT: 24px; WORD-SPACING: 10px
+}
+.hearder .iconMenu .liDigiOn {
+	WIDTH: 57px; BACKGROUND-POSITION: 0px 0px
+}
+.hearder .iconMenu .liMobileOn {
+	WIDTH: 35px; BACKGROUND-POSITION: -57px 0px
+}
+.hearder .iconMenu .liDcOn {
+	WIDTH: 53px; BACKGROUND-POSITION: -92px 0px
+}
+.hearder .iconMenu .liDvOn {
+	WIDTH: 41px; BACKGROUND-POSITION: -148px 0px
+}
+.hearder .iconMenu .liMp3On {
+	WIDTH: 48px; BACKGROUND-POSITION: -193px 0px
+}
+.hearder .iconMenu .liFamilyOn {
+	WIDTH: 52px; BACKGROUND-POSITION: -241px 0px; OVERFLOW: hidden
+}
+.hearder .iconMenu .liGpsOn {
+	WIDTH: 42px; BACKGROUND-POSITION: -293px 0px
+}
+.hearder .iconMenu .liMstOn {
+	WIDTH: 53px; BACKGROUND-POSITION: -336px 0px
+}
+.hearder .iconMenu .liNbOn {
+	WIDTH: 41px; BACKGROUND-POSITION: -401px 0px
+}
+.hearder .iconMenu .liDeskOn {
+	WIDTH: 40px; BACKGROUND-POSITION: -452px 0px
+}
+.hearder .iconMenu .liUmpcOn {
+	WIDTH: 37px; BACKGROUND-POSITION: -494px 0px
+}
+.hearder .iconMenu .liDiyOn {
+	WIDTH: 52px; BACKGROUND-POSITION: -537px 0px
+}
+.hearder .iconMenu .liFamilyOn .jd {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 1px 0px -18px; PADDING-LEFT: 0px; WIDTH: 30px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.hearder .iconMenu .liFamilyOn .gq {
+	PADDING-BOTTOM: 0px; MARGIN: -16px 1px 0px 28px; PADDING-LEFT: 0px; WIDTH: 26px; PADDING-RIGHT: 0px; COLOR: #f00; PADDING-TOP: 0px
+}

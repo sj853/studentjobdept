@@ -1,0 +1,382 @@
+TABLE {
+	FONT-SIZE: 12px
+}
+TD {
+	FONT-SIZE: 12px
+}
+SELECT {
+	FONT-SIZE: 12px
+}
+INPUT {
+	FONT-SIZE: 12px
+}
+DIV {
+	FONT-SIZE: 12px
+}
+BODY {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fff; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: auto; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+A IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+SELECT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+A:link {
+	COLOR: #124ba0; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #124ba0; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #6699ff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff4400; TEXT-DECORATION: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.space {
+	LETTER-SPACING: 5px
+}
+.blackbox {
+	COLOR: #ff6600
+}
+.blackbox A:link {
+	COLOR: #000
+}
+.blackbox A:visited {
+	COLOR: #000
+}
+.blackbox A:hover {
+	COLOR: #ff6600
+}
+.blackbox A:active {
+	COLOR: #ff6600
+}
+.bluebox {
+	COLOR: #ff6600
+}
+.bluebox A:link {
+	COLOR: #003499
+}
+.bluebox A:visited {
+	COLOR: #003499
+}
+.bluebox A:active {
+	COLOR: #ff6600
+}
+.bluebox A:hover {
+	COLOR: #ff6600
+}
+.l14 {
+	LINE-HEIGHT: 14px
+}
+.l16 {
+	LINE-HEIGHT: 16px
+}
+.l18 {
+	LINE-HEIGHT: 18px
+}
+.l20 {
+	LINE-HEIGHT: 20px
+}
+.l22 {
+	LINE-HEIGHT: 22px
+}
+.l24 {
+	LINE-HEIGHT: 24px
+}
+.l26 {
+	LINE-HEIGHT: 26px
+}
+.art_title {
+	COLOR: #339900
+}
+.time {
+	COLOR: #ff6800
+}
+.b {
+	FONT-WEIGHT: bold
+}
+.fff {
+	COLOR: #fff
+}
+.999 {
+	COLOR: #999999
+}
+.555 {
+	COLOR: #555555
+}
+.color555 {
+	COLOR: #555555
+}
+.color999 {
+	COLOR: #999999
+}
+.red {
+	COLOR: #ff0000
+}
+.red2 {
+	COLOR: #c60404
+}
+.f14 {
+	FONT-SIZE: 14px
+}
+.f16 {
+	FONT-SIZE: 16px
+}
+.f18 {
+	FONT-SIZE: 18px
+}
+.f20 {
+	FONT-SIZE: 20px
+}
+.f21 {
+	FONT-SIZE: 21px
+}
+.f22 {
+	FONT-SIZE: 22px
+}
+.input {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; HEIGHT: 16px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.btn_a {
+	BORDER-BOTTOM: #265aae 1px solid; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, 
+StartColorStr=#ffffff, EndColorStr=#D7E7FA); BORDER-LEFT: #265aae 1px solid; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; HEIGHT: 20px; COLOR: #000; FONT-SIZE: 12px; BORDER-TOP: #265aae 1px solid; CURSOR: hand; BORDER-RIGHT: #265aae 1px solid; PADDING-TOP: 2px
+}
+.com_menu A:link {
+	PADDING-BOTTOM: 0px !important; LINE-HEIGHT: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; DISPLAY: block; HEIGHT: 0px !important; COLOR: #ffffff; PADDING-TOP: 30px !important
+}
+.com_menu A:visited {
+	PADDING-BOTTOM: 0px !important; LINE-HEIGHT: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; DISPLAY: block; HEIGHT: 0px !important; COLOR: #ffffff; PADDING-TOP: 30px !important
+}
+.com_menu A:hover {
+	COLOR: #fff000
+}
+.com_menu {
+	FILTER: dropshadow(color=#1A4B74,offx=1,offy=1)
+}
+.bold0 {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.redff {
+	COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.redff A:link {
+	COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.redff A:visited {
+	COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.redff A:hover {
+	COLOR: #ff5500; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.redff A:active {
+	COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.blue {
+	COLOR: #002e88; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.blue A:link {
+	COLOR: #002e88; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.blue A:visited {
+	COLOR: #002e88; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.blue A:hover {
+	COLOR: #ff5500; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.blue A:active {
+	COLOR: #002e88; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.black {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.black A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.black A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.black A:hover {
+	COLOR: #ff5500; TEXT-DECORATION: none
+}
+.black A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.orge {
+	COLOR: #ff5500; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.orge A:link {
+	COLOR: #ff5500; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.orge A:visited {
+	COLOR: #ff5500; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.orge A:hover {
+	COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.orge A:active {
+	COLOR: #ff5500; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+#btm TD {
+	COLOR: #000000
+}
+#btm A {
+	COLOR: #000000
+}
+.b_input {
+	BORDER-BOTTOM: #dadada 1px solid; BORDER-LEFT: #dadada 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; HEIGHT: 23px; COLOR: #000000; BORDER-TOP: #dadada 1px solid; BORDER-RIGHT: #dadada 1px solid; PADDING-TOP: 4px
+}
+.b_input02 {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; HEIGHT: 23px; COLOR: #000; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.b_textarea {
+	BORDER-BOTTOM: #dadada 1px solid; BORDER-LEFT: #dadada 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; COLOR: #000000; BORDER-TOP: #dadada 1px solid; BORDER-RIGHT: #dadada 1px solid; PADDING-TOP: 2px
+}
+.b_textarea02 {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; COLOR: #000000; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 2px
+}
+.b_white {
+	COLOR: #ffffff
+}
+.b_blue {
+	COLOR: #3521a4
+}
+.photoarea {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; OVERFLOW: auto; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.jump {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: 7px 0px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.blue01 {
+	FONT-SIZE: 12px
+}
+.blue01 {
+	FONT-SIZE: 12px
+}
+.font14 TD {
+	FONT-SIZE: 12px
+}
+I {
+	FONT-STYLE: normal
+}
+.box980 {
+	MARGIN: 0px auto; WIDTH: 980px; OVERFLOW: hidden
+}
+.boxNav {
+	BACKGROUND: url(http://www1.pconline.com.cn/dp/2008/images/dp_bg.jpg) no-repeat; HEIGHT: 48px; OVERFLOW: hidden
+}
+.boxNav .boxLogo {
+	WIDTH: 200px; FLOAT: left
+}
+.boxNav .boxSearch {
+	WIDTH: 410px; FLOAT: right; OVERFLOW: hidden; PADDING-TOP: 12px
+}
+.boxNav .boxSearch INPUT {
+	BORDER-BOTTOM: #d0c4bd 1px solid; BORDER-LEFT: #d0c4bd 1px solid; BORDER-TOP: #d0c4bd 1px solid; BORDER-RIGHT: #d0c4bd 1px solid
+}
+.boxNav .boxSearch .inpTxt {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; WIDTH: 165px; PADDING-RIGHT: 0px; HEIGHT: 18px; COLOR: #999; MARGIN-RIGHT: 8px; PADDING-TOP: 2px
+}
+.boxNav .boxSearch .inpSelect {
+	WIDTH: 80px; HEIGHT: 20px; MARGIN-RIGHT: 8px
+}
+.boxNav .boxSearch .btnSea {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 66px; FONT: bold 12px/24px "ËÎÌו"; BACKGROUND: url(http://www1.pconline.com.cn/dp/2008/images/dp_bg.jpg) no-repeat -225px -940px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 24px; COLOR: #51412c; MARGIN-LEFT: 8px; BORDER-LEFT-WIDTH: 0px
+}
+.boxMenu {
+	LINE-HEIGHT: 30px; BACKGROUND: url(http://www1.pconline.com.cn/dp/2008/images/dp_bg2.gif) repeat-x; HEIGHT: 30px; OVERFLOW: hidden
+}
+.boxMenu .iInd {
+	TEXT-ALIGN: center; WIDTH: 50px; DISPLAY: block; BACKGROUND: url(http://www1.pconline.com.cn/dp/2008/images/dp_bg2.gif) repeat-x 0px -35px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+.boxMenu .iLis {
+	DISPLAY: block; FLOAT: left
+}
+.boxMenu .iLis A {
+	MARGIN-RIGHT: 8px
+}
+.boxMenu A:link {
+	COLOR: #fff
+}
+.boxMenu A:visited {
+	COLOR: #fff
+}
+.boxMenu A:hover {
+	COLOR: #fc0
+}
+.boxMenu .iReg {
+	PADDING-LEFT: 15px; WIDTH: 90px; DISPLAY: block; BACKGROUND: url(http://www1.pconline.com.cn/dp/2008/images/dp_ic.gif) no-repeat 5px 12px; FLOAT: right
+}
+.boxMenu .iReg A {
+	COLOR: #fc0
+}
+.boxUdmenu {
+	MARGIN-TOP: 1px; BACKGROUND: url(http://www1.pconline.com.cn/dp/2008/images/dp_bg.jpg) no-repeat 0px -50px; HEIGHT: 11px
+}
+#bottom {
+	MARGIN: 0px auto; WIDTH: 980px; HEIGHT: 210px; OVERFLOW: hidden; BORDER-TOP: #ccc 1px dotted
+}
+#bottom A {
+	COLOR: #5b5b5b
+}
+#bottom A:hover {
+	COLOR: #f60
+}
+#bottom .links {
+	TEXT-ALIGN: center; LINE-HEIGHT: 38px; HEIGHT: 37px; OVERFLOW: hidden
+}
+#bottom .links A {
+	COLOR: #023199; TEXT-DECORATION: none
+}
+#bottom .links A:hover {
+	COLOR: #f60
+}
+#bottom .links IMG {
+	MARGIN-TOP: 8px; FLOAT: left
+}
+#bottom .links A.pmarket {
+	TEXT-ALIGN: center; LINE-HEIGHT: 24px; MARGIN-TOP: 8px; WIDTH: 111px; BACKGROUND: url(http://www.pconline.com.cn/images/market_sbg.gif) no-repeat; FLOAT: left; HEIGHT: 21px; OVERFLOW: hidden
+}
+#bottom .sites {
+	TEXT-ALIGN: center; HEIGHT: 28px; COLOR: #5b5b5b; PADDING-TOP: 12px
+}
+#bottom .left {
+	WIDTH: 369px; FLOAT: left
+}
+#bottom .left P {
+	TEXT-ALIGN: center; LINE-HEIGHT: 20px; WIDTH: 111px; FLOAT: right; HEIGHT: 150px; COLOR: #5b5b5b
+}
+#bottom .left P IMG {
+	WIDTH: 111px; HEIGHT: 43px
+}
+#bottom .mid {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 16px; WIDTH: 301px; FLOAT: left; HEIGHT: 250px; COLOR: #5b5b5b
+}
+#bottom .right {
+	WIDTH: 81px; FLOAT: left; HEIGHT: 100px; PADDING-TOP: 3px
+}
+#bottom .right IMG {
+	WIDTH: 40px; HEIGHT: 53px
+}

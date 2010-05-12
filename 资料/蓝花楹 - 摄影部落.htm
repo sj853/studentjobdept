@@ -1,0 +1,1144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0082)http://dp.pconline.com.cn/photoblog/page.do -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>蓝花楹 - 摄影部落</TITLE>
+<META content="text/html; charset=GBK" http-equiv=Content-Type><LINK 
+rel=stylesheet href="蓝花楹%20-%20摄影部落_files/base.css"><LINK rel=stylesheet 
+href="蓝花楹%20-%20摄影部落_files/club.css"><LINK rel=stylesheet type=text/css 
+href="蓝花楹%20-%20摄影部落_files/clue_global.css">
+<STYLE type=text/css>TD {
+	WORD-WRAP: break-word; WORD-BREAK: break-all
+}
+.tlinebot {
+	BORDER-BOTTOM: #dddddd 1px dashed
+}
+.dpgd {
+	FLOAT: left; MARGIN-LEFT: 10px
+}
+.picinfo TD {
+	MARGIN-TOP: 5px; FONT-FAMILY: Arial, sans-serif, Helvetica,; COLOR: #666666; FONT-SIZE: 10px
+}
+.jhclass {
+	LINE-HEIGHT: 30px; COLOR: #999999; FONT-SIZE: 14px
+}
+.jhclass A:link {
+	COLOR: #755526; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.jhclass A:visited {
+	COLOR: #755526; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.jhclass A:hover {
+	COLOR: #755526; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.left10 {
+	PADDING-LEFT: 10px
+}
+.w1 {
+	LETTER-SPACING: 1px
+}
+.w2 {
+	LETTER-SPACING: 2px
+}
+.dashed {
+	BORDER-BOTTOM: #dddddd 1px dashed
+}
+.dashed2 {
+	BORDER-BOTTOM: #999999 1px dashed
+}
+.hei {
+	FONT-FAMILY: "黑体"
+}
+.engfont {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.textline {
+	BACKGROUND-IMAGE: url(../images/textlinebg.gif); BACKGROUND-REPEAT: repeat
+}
+.hangshou {
+	TEXT-INDENT: 2em
+}
+.red {
+	COLOR: #c83a2e; TEXT-DECORATION: none
+}
+.red A:link {
+	COLOR: #c83a2e; TEXT-DECORATION: none
+}
+.red A:visited {
+	COLOR: #c83a2e; TEXT-DECORATION: none
+}
+.red A:hover {
+	COLOR: #c83a2e; TEXT-DECORATION: none
+}
+.red A:active {
+	COLOR: #c83a2e; TEXT-DECORATION: none
+}
+.topmenu {
+	BACKGROUND-IMAGE: url(http://www.pconline.com.cn/digital/photo/images_dp2007/menubg.gif); MARGIN-TOP: 10px; HEIGHT: 37px
+}
+.brown {
+	COLOR: #8c5f19; TEXT-DECORATION: none
+}
+.brown A {
+	COLOR: #8c5f19; TEXT-DECORATION: none
+}
+.brown A:link {
+	COLOR: #8c5f19; TEXT-DECORATION: none
+}
+.brown A:visited {
+	COLOR: #8c5f19; TEXT-DECORATION: none
+}
+.brown A:active {
+	COLOR: #8c5f19; TEXT-DECORATION: none
+}
+.brown A:hover {
+	COLOR: #be6e00
+}
+.sienna {
+	COLOR: #996d16
+}
+.sienna A:link {
+	COLOR: #996d16
+}
+.sienna A:visited {
+	COLOR: #996d16
+}
+A.sienna:link {
+	COLOR: #996d16
+}
+A.sienna:visited {
+	COLOR: #996d16
+}
+</STYLE>
+
+<SCRIPT>document.write("<img src=http://count5.pconline.com.cn/newcount/count.php?channel=258&screen="+screen.width+"*"+screen.height+"&refer="+escape(document.referrer)+" border=0 width=0 height=0>");</SCRIPT>
+
+<SCRIPT src="蓝花楹%20-%20摄影部落_files/checkForm.js"></SCRIPT>
+
+<SCRIPT src="蓝花楹%20-%20摄影部落_files/autoIframe.js"></SCRIPT>
+
+<SCRIPT src="蓝花楹%20-%20摄影部落_files/ubb.js"></SCRIPT>
+
+<SCRIPT>
+function set_enabled(box) 
+{
+	frm = box.form;
+	ele_cnt = frm.elements.length;
+	for(i=0; i<ele_cnt; i++) {
+		ele = frm.elements[i];
+		if (ele.name == 'opuscom_points[]') {
+			//ele.disabled = (box.value=='1')?false:true;
+			if(box.value=='1'){
+				ele.disabled = false;
+			}else{
+				ele.disabled = true;
+				document.getElementById("gradeContent").innerHTML="";
+			}
+		}
+	}
+}
+
+function toGrade(frm) {
+	var check_all = true;
+	var pointContent = "";
+	if(frm.post_points[0].checked==true) {
+		ele_cnt = frm.elements.length;
+		for (i=0; i<ele_cnt; i++) {
+			ele = frm.elements[i];
+			if (ele.name == 'opuscom_points[]' && ele.selectedIndex <= 0) {
+				check_all = false;
+				break;
+			}else if(ele.name == 'opuscom_points[]'){
+				pointContent += ele.id + ":" + ele.value + " ";
+			}
+		}
+	}else{
+		check_all = false;
+	}
+	
+	if (!check_all) {
+		alert('请选择分数！');
+		ele.focus();
+	}else{
+		document.getElementById("gradeContent").innerHTML=pointContent;
+	}
+}
+
+function putFace(img)
+{
+	prefix = '[em';
+	postfix = ']';
+	str = img.src;
+	i = str.indexOf('.',0);
+	while((j=str.indexOf('.',i+1))!=-1 ) {
+		i = j;
+	}
+	em = str.substring(i-3, i);
+	insert_code(prefix, postfix, em);
+}
+
+function insert_code(prefix, postfix, value)
+{
+	document.form1.ubbContent.value += prefix+value+postfix;
+}
+
+function submitForm(frm){
+	var replyContent = document.form1.ubbContent.value;
+	var gradedContent = document.getElementById("gradeContent").innerHTML;
+	document.form1.ubbContent.value = gradedContent + "\n"  + replyContent;
+	if(checkForm(frm)){
+		return true;
+	}else{
+		//restore the reply content
+		document.form1.ubbContent.value = replyContent;
+		return false;
+	}
+}
+
+function deleteReply(id, pid){
+      if(confirm('确定删除这条评论吗?')){
+        document.location = "reply.do?method=delete&id=" + id + "&pid=" + pid;
+      }
+    }
+
+try{document.domain=(document.domain||"").replace(/^[^.]*./,'')}catch(e){};
+
+</SCRIPT>
+
+<SCRIPT src="蓝花楹%20-%20摄影部落_files/photo.htm"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 8.00.7600.16535"></HEAD>
+<BODY><SPAN class=spanclass></SPAN>
+<SCRIPT src="蓝花楹%20-%20摄影部落_files/ivy.js"></SCRIPT>
+
+<SCRIPT src="蓝花楹%20-%20摄影部落_files/show"></SCRIPT>
+
+<DIV style="DISPLAY: none" id=ivy_div>
+<SCRIPT src="蓝花楹%20-%20摄影部落_files/show(1).2]"></SCRIPT>
+</DIV>
+<DIV style="TEXT-ALIGN: center" class=navDp>
+<SCRIPT type=text/javascript 
+src="蓝花楹%20-%20摄影部落_files/channelnav09.js"></SCRIPT>
+</DIV><!-- 通栏广告 -->
+<CENTER>
+<DIV style="TEXT-ALIGN: center; MARGIN: 3px 0px 2px; WIDTH: 985px">
+<SCRIPT src="蓝花楹%20-%20摄影部落_files/show(1).1]"></SCRIPT>
+</DIV></CENTER>
+<SCRIPT class=" defer" type=text/javascript charset=gb2312 
+src="蓝花楹%20-%20摄影部落_files/nav.htm"></SCRIPT>
+
+<TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 cellPadding=0 width=980 
+align=center>
+  <TBODY>
+  <TR>
+    <TD 
+    style="BORDER-BOTTOM: #e2e2e2 4px; BORDER-LEFT: #e2e2e2 4px solid; BORDER-TOP: #e2e2e2 4px solid; BORDER-RIGHT: #e2e2e2 4px solid">
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%" align=center>
+        <TBODY>
+        <TR>
+          <TD class="left10 b color555" height=29 
+          background=蓝花楹%20-%20摄影部落_files/dpzptm.gif width=250>部落首页 &gt; <A 
+            href="http://dp.pconline.com.cn/photoblog/photoes.do?method=expertIndex"><SPAN 
+            class="color555 b">发烧天地</SPAN></A></TD>
+          <TD style="PADDING-RIGHT: 10px" 
+          background=蓝花楹%20-%20摄影部落_files/dpzptm.gif 
+        align=right>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=980 align=center>
+  <TBODY>
+  <TR>
+    <TD 
+    style="BORDER-BOTTOM: #e2e2e2 4px; BORDER-LEFT: #e2e2e2 4px solid; BORDER-TOP: #e2e2e2 4px; BORDER-RIGHT: #e2e2e2 4px solid">
+      <TABLE style="MARGIN-TOP: 40px" border=0 cellSpacing=0 cellPadding=0 
+      width=760 bgColor=#ffffff align=center>
+        <TBODY>
+        <TR>
+          <TD width=6><IMG src="" width=1 height=1></TD>
+          <TD vAlign=top width=748 align=left>
+            <TABLE class=black border=0 cellSpacing=0 cellPadding=0 
+width="100%">
+              <TBODY>
+              <TR>
+                <TD height=80 width=748 align=middle>
+                  <H1 class="heiti f20 biaozhun">《蓝花楹》</H1><A 
+                  href="http://dp.pconline.com.cn/photoblog/page.do?method=homePage&amp;aid=3911728" 
+                  target=_blank><SPAN class=f14>作者：四季豆<SPAN class=red> 
+                  (查看博客)</SPAN></SPAN></A> <SPAN id=accountType></SPAN></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%" 
+                  align=center>
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=top width="100%" colSpan=2>
+                        <TABLE 
+                        style="BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid" 
+                        border=0 cellSpacing=0 cellPadding=0 width=745 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD width="100%" colSpan=2 align=middle><A 
+                              href="http://dp.pconline.com.cn/photoblog/pic.do?src=http://img.pconline.com.cn/images/photoblog/3/9/1/1/3911728/20087/17/1216291627096.jpg"><IMG 
+                              border=0 alt=点击查看原图 vspace=12 
+                              src="蓝花楹%20-%20摄影部落_files/1216291627096_mthumb.jpg"> 
+                              </A></TD></TR>
+                          <TR>
+                            <TD class="left10 25" width="70%" 
+                          align=middle>1</TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 
+                        cellPadding=0 width=745 align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class="l24 left10">摄影器材： <A 
+                              href="http://pdlib.pconline.com.cn/service/ls_show_product.jsp?id=161851">佳能 
+                              EOS 400D(Rebel XTi)</A> <SPAN><A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank>点击查看该器材网购实价</A> <A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank><IMG 
+                              src="蓝花楹%20-%20摄影部落_files/shopping_cart.gif"></A></SPAN> 
+                              <SPAN class=red><A 
+                              href="http://dp.pconline.com.cn/photoblog/sample.do?method=show&amp;model=161851" 
+                              target=_blank>(查看该器材所有样张)</A></SPAN> 
+                              &nbsp;&nbsp;&nbsp;<SPAN 
+                              id=kzdQuestions1></SPAN><BR>拍摄参数： 曝光:Manual 
+                              exposure 光圈:F5.6 快门:1/400 sec ISO:100 曝光补偿:0 
+                          EV</TD></TR></TBODY></TABLE><BR><BR>
+                        <TABLE 
+                        style="BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid" 
+                        border=0 cellSpacing=0 cellPadding=0 width=745 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD width="100%" colSpan=2 align=middle><A 
+                              href="http://dp.pconline.com.cn/photoblog/pic.do?src=http://img.pconline.com.cn/images/photoblog/3/9/1/1/3911728/20087/17/1216291627275.jpg"><IMG 
+                              border=0 alt=点击查看原图 vspace=12 
+                              src="蓝花楹%20-%20摄影部落_files/1216291627275_mthumb.jpg"> 
+                              </A></TD></TR>
+                          <TR>
+                            <TD class="left10 25" width="70%" 
+                          align=middle>2</TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 
+                        cellPadding=0 width=745 align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class="l24 left10">摄影器材： <A 
+                              href="http://pdlib.pconline.com.cn/service/ls_show_product.jsp?id=161851">佳能 
+                              EOS 400D(Rebel XTi)</A> <SPAN><A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank>点击查看该器材网购实价</A> <A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank><IMG 
+                              src="蓝花楹%20-%20摄影部落_files/shopping_cart.gif"></A></SPAN> 
+                              <SPAN class=red><A 
+                              href="http://dp.pconline.com.cn/photoblog/sample.do?method=show&amp;model=161851" 
+                              target=_blank>(查看该器材所有样张)</A></SPAN> 
+                              &nbsp;&nbsp;&nbsp;<SPAN 
+                              id=kzdQuestions2></SPAN><BR>拍摄参数： 曝光:Manual 
+                              exposure 光圈:F5.6 快门:1/400 sec ISO:100 曝光补偿:0 
+                          EV</TD></TR></TBODY></TABLE><BR><BR>
+                        <TABLE 
+                        style="BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid" 
+                        border=0 cellSpacing=0 cellPadding=0 width=745 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD width="100%" colSpan=2 align=middle><A 
+                              href="http://dp.pconline.com.cn/photoblog/pic.do?src=http://img.pconline.com.cn/images/photoblog/3/9/1/1/3911728/20087/17/1216291627065.jpg"><IMG 
+                              border=0 alt=点击查看原图 vspace=12 
+                              src="蓝花楹%20-%20摄影部落_files/1216291627065_mthumb.jpg"> 
+                              </A></TD></TR>
+                          <TR>
+                            <TD class="left10 25" width="70%" 
+                          align=middle>3</TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 
+                        cellPadding=0 width=745 align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class="l24 left10">摄影器材： <A 
+                              href="http://pdlib.pconline.com.cn/service/ls_show_product.jsp?id=161851">佳能 
+                              EOS 400D(Rebel XTi)</A> <SPAN><A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank>点击查看该器材网购实价</A> <A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank><IMG 
+                              src="蓝花楹%20-%20摄影部落_files/shopping_cart.gif"></A></SPAN> 
+                              <SPAN class=red><A 
+                              href="http://dp.pconline.com.cn/photoblog/sample.do?method=show&amp;model=161851" 
+                              target=_blank>(查看该器材所有样张)</A></SPAN> 
+                              &nbsp;&nbsp;&nbsp;<SPAN 
+                              id=kzdQuestions3></SPAN><BR>拍摄参数： 曝光:Manual 
+                              exposure 光圈:F5.6 快门:1/400 sec ISO:100 曝光补偿:0 
+                          EV</TD></TR></TBODY></TABLE><BR><BR>
+                        <TABLE 
+                        style="BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid" 
+                        border=0 cellSpacing=0 cellPadding=0 width=745 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD width="100%" colSpan=2 align=middle><A 
+                              href="http://dp.pconline.com.cn/photoblog/pic.do?src=http://img.pconline.com.cn/images/photoblog/3/9/1/1/3911728/20087/17/1216291627927.jpg"><IMG 
+                              border=0 alt=点击查看原图 vspace=12 
+                              src="蓝花楹%20-%20摄影部落_files/1216291627927_mthumb.jpg"> 
+                              </A></TD></TR>
+                          <TR>
+                            <TD class="left10 25" width="70%" 
+                          align=middle>4</TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 
+                        cellPadding=0 width=745 align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class="l24 left10">摄影器材： <A 
+                              href="http://pdlib.pconline.com.cn/service/ls_show_product.jsp?id=161851">佳能 
+                              EOS 400D(Rebel XTi)</A> <SPAN><A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank>点击查看该器材网购实价</A> <A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank><IMG 
+                              src="蓝花楹%20-%20摄影部落_files/shopping_cart.gif"></A></SPAN> 
+                              <SPAN class=red><A 
+                              href="http://dp.pconline.com.cn/photoblog/sample.do?method=show&amp;model=161851" 
+                              target=_blank>(查看该器材所有样张)</A></SPAN> 
+                              &nbsp;&nbsp;&nbsp;<SPAN 
+                              id=kzdQuestions4></SPAN><BR>拍摄参数： 曝光:Manual 
+                              exposure 光圈:F5.6 快门:1/400 sec ISO:100 曝光补偿:0 
+                          EV</TD></TR></TBODY></TABLE><BR><BR>
+                        <TABLE 
+                        style="BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid" 
+                        border=0 cellSpacing=0 cellPadding=0 width=745 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD width="100%" colSpan=2 align=middle><A 
+                              href="http://dp.pconline.com.cn/photoblog/pic.do?src=http://img.pconline.com.cn/images/photoblog/3/9/1/1/3911728/20087/17/1216291627721.jpg"><IMG 
+                              border=0 alt=点击查看原图 vspace=12 
+                              src="蓝花楹%20-%20摄影部落_files/1216291627721_mthumb.jpg"> 
+                              </A></TD></TR>
+                          <TR>
+                            <TD class="left10 25" width="70%" 
+                          align=middle>5</TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 
+                        cellPadding=0 width=745 align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class="l24 left10">摄影器材： <A 
+                              href="http://pdlib.pconline.com.cn/service/ls_show_product.jsp?id=161851">佳能 
+                              EOS 400D(Rebel XTi)</A> <SPAN><A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank>点击查看该器材网购实价</A> <A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank><IMG 
+                              src="蓝花楹%20-%20摄影部落_files/shopping_cart.gif"></A></SPAN> 
+                              <SPAN class=red><A 
+                              href="http://dp.pconline.com.cn/photoblog/sample.do?method=show&amp;model=161851" 
+                              target=_blank>(查看该器材所有样张)</A></SPAN> 
+                              &nbsp;&nbsp;&nbsp;<SPAN 
+                              id=kzdQuestions5></SPAN><BR>拍摄参数： 曝光:Manual 
+                              exposure 光圈:F5.6 快门:1/400 sec ISO:100 曝光补偿:0 
+                          EV</TD></TR></TBODY></TABLE><BR><BR>
+                        <TABLE 
+                        style="BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid" 
+                        border=0 cellSpacing=0 cellPadding=0 width=745 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD width="100%" colSpan=2 align=middle><A 
+                              href="http://dp.pconline.com.cn/photoblog/pic.do?src=http://img.pconline.com.cn/images/photoblog/3/9/1/1/3911728/20087/17/1216291627579.jpg"><IMG 
+                              border=0 alt=点击查看原图 vspace=12 
+                              src="蓝花楹%20-%20摄影部落_files/1216291627579_mthumb.jpg"> 
+                              </A></TD></TR>
+                          <TR>
+                            <TD class="left10 25" width="70%" 
+                          align=middle>6</TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 
+                        cellPadding=0 width=745 align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class="l24 left10">摄影器材： <A 
+                              href="http://pdlib.pconline.com.cn/service/ls_show_product.jsp?id=161851">佳能 
+                              EOS 400D(Rebel XTi)</A> <SPAN><A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank>点击查看该器材网购实价</A> <A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank><IMG 
+                              src="蓝花楹%20-%20摄影部落_files/shopping_cart.gif"></A></SPAN> 
+                              <SPAN class=red><A 
+                              href="http://dp.pconline.com.cn/photoblog/sample.do?method=show&amp;model=161851" 
+                              target=_blank>(查看该器材所有样张)</A></SPAN> 
+                              &nbsp;&nbsp;&nbsp;<SPAN 
+                              id=kzdQuestions6></SPAN><BR>拍摄参数： 曝光:Manual 
+                              exposure 光圈:F5.6 快门:1/400 sec ISO:100 曝光补偿:0 
+                          EV</TD></TR></TBODY></TABLE><BR><BR>
+                        <TABLE 
+                        style="BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid" 
+                        border=0 cellSpacing=0 cellPadding=0 width=745 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD width="100%" colSpan=2 align=middle><A 
+                              href="http://dp.pconline.com.cn/photoblog/pic.do?src=http://img.pconline.com.cn/images/photoblog/3/9/1/1/3911728/20087/17/1216291627798.jpg"><IMG 
+                              border=0 alt=点击查看原图 vspace=12 
+                              src="蓝花楹%20-%20摄影部落_files/1216291627798_mthumb.jpg"> 
+                              </A></TD></TR>
+                          <TR>
+                            <TD class="left10 25" width="70%" 
+                          align=middle>7</TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 
+                        cellPadding=0 width=745 align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class="l24 left10">摄影器材： <A 
+                              href="http://pdlib.pconline.com.cn/service/ls_show_product.jsp?id=161851">佳能 
+                              EOS 400D(Rebel XTi)</A> <SPAN><A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank>点击查看该器材网购实价</A> <A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank><IMG 
+                              src="蓝花楹%20-%20摄影部落_files/shopping_cart.gif"></A></SPAN> 
+                              <SPAN class=red><A 
+                              href="http://dp.pconline.com.cn/photoblog/sample.do?method=show&amp;model=161851" 
+                              target=_blank>(查看该器材所有样张)</A></SPAN> 
+                              &nbsp;&nbsp;&nbsp;<SPAN 
+                              id=kzdQuestions7></SPAN><BR>拍摄参数： 曝光:Manual 
+                              exposure 光圈:F5.6 快门:1/400 sec ISO:100 曝光补偿:0 
+                          EV</TD></TR></TBODY></TABLE><BR><BR>
+                        <TABLE 
+                        style="BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid" 
+                        border=0 cellSpacing=0 cellPadding=0 width=745 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD width="100%" colSpan=2 align=middle><A 
+                              href="http://dp.pconline.com.cn/photoblog/pic.do?src=http://img.pconline.com.cn/images/photoblog/3/9/1/1/3911728/20087/17/1216291627260.jpg"><IMG 
+                              border=0 alt=点击查看原图 vspace=12 
+                              src="蓝花楹%20-%20摄影部落_files/1216291627260_mthumb.jpg"> 
+                              </A></TD></TR>
+                          <TR>
+                            <TD class="left10 25" width="70%" 
+                          align=middle>8</TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 
+                        cellPadding=0 width=745 align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class="l24 left10">摄影器材： <A 
+                              href="http://pdlib.pconline.com.cn/service/ls_show_product.jsp?id=161851">佳能 
+                              EOS 400D(Rebel XTi)</A> <SPAN><A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank>点击查看该器材网购实价</A> <A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank><IMG 
+                              src="蓝花楹%20-%20摄影部落_files/shopping_cart.gif"></A></SPAN> 
+                              <SPAN class=red><A 
+                              href="http://dp.pconline.com.cn/photoblog/sample.do?method=show&amp;model=161851" 
+                              target=_blank>(查看该器材所有样张)</A></SPAN> 
+                              &nbsp;&nbsp;&nbsp;<SPAN 
+                              id=kzdQuestions8></SPAN><BR>拍摄参数： 曝光:Auto exposure 
+                              光圈:F5.6 快门:1/640 sec ISO:100 曝光补偿:2/3 
+                          EV</TD></TR></TBODY></TABLE><BR><BR>
+                        <TABLE 
+                        style="BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid" 
+                        border=0 cellSpacing=0 cellPadding=0 width=745 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD width="100%" colSpan=2 align=middle><A 
+                              href="http://dp.pconline.com.cn/photoblog/pic.do?src=http://img.pconline.com.cn/images/photoblog/3/9/1/1/3911728/20087/17/1216291627384.jpg"><IMG 
+                              border=0 alt=点击查看原图 vspace=12 
+                              src="蓝花楹%20-%20摄影部落_files/1216291627384_mthumb.jpg"> 
+                              </A></TD></TR>
+                          <TR>
+                            <TD class="left10 25" width="70%" 
+                          align=middle>9</TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 
+                        cellPadding=0 width=745 align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class="l24 left10">摄影器材： <A 
+                              href="http://pdlib.pconline.com.cn/service/ls_show_product.jsp?id=161851">佳能 
+                              EOS 400D(Rebel XTi)</A> <SPAN><A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank>点击查看该器材网购实价</A> <A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank><IMG 
+                              src="蓝花楹%20-%20摄影部落_files/shopping_cart.gif"></A></SPAN> 
+                              <SPAN class=red><A 
+                              href="http://dp.pconline.com.cn/photoblog/sample.do?method=show&amp;model=161851" 
+                              target=_blank>(查看该器材所有样张)</A></SPAN> 
+                              &nbsp;&nbsp;&nbsp;<SPAN 
+                              id=kzdQuestions9></SPAN><BR>拍摄参数： 曝光:Auto exposure 
+                              光圈:F5.6 快门:1/640 sec ISO:100 曝光补偿:2/3 
+                          EV</TD></TR></TBODY></TABLE><BR><BR>
+                        <TABLE 
+                        style="BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid" 
+                        border=0 cellSpacing=0 cellPadding=0 width=745 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD width="100%" colSpan=2 align=middle><A 
+                              href="http://dp.pconline.com.cn/photoblog/pic.do?src=http://img.pconline.com.cn/images/photoblog/3/9/1/1/3911728/20087/17/1216291627705.jpg"><IMG 
+                              border=0 alt=点击查看原图 vspace=12 
+                              src="蓝花楹%20-%20摄影部落_files/1216291627705_mthumb.jpg"> 
+                              </A></TD></TR>
+                          <TR>
+                            <TD class="left10 25" width="70%" 
+                            align=middle>10</TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 
+                        cellPadding=0 width=745 align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class="l24 left10">摄影器材： <A 
+                              href="http://pdlib.pconline.com.cn/service/ls_show_product.jsp?id=161851">佳能 
+                              EOS 400D(Rebel XTi)</A> <SPAN><A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank>点击查看该器材网购实价</A> <A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank><IMG 
+                              src="蓝花楹%20-%20摄影部落_files/shopping_cart.gif"></A></SPAN> 
+                              <SPAN class=red><A 
+                              href="http://dp.pconline.com.cn/photoblog/sample.do?method=show&amp;model=161851" 
+                              target=_blank>(查看该器材所有样张)</A></SPAN> 
+                              &nbsp;&nbsp;&nbsp;<SPAN 
+                              id=kzdQuestions10></SPAN><BR>拍摄参数： 曝光:Auto 
+                              exposure 光圈:F5.6 快门:1/640 sec ISO:100 曝光补偿:2/3 
+                            EV</TD></TR></TBODY></TABLE><BR><BR>
+                        <TABLE 
+                        style="BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid" 
+                        border=0 cellSpacing=0 cellPadding=0 width=745 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD width="100%" colSpan=2 align=middle><A 
+                              href="http://dp.pconline.com.cn/photoblog/pic.do?src=http://img.pconline.com.cn/images/photoblog/3/9/1/1/3911728/20087/17/1216291657004.jpg"><IMG 
+                              border=0 alt=点击查看原图 vspace=12 
+                              src="蓝花楹%20-%20摄影部落_files/1216291657004_mthumb.jpg"> 
+                              </A></TD></TR>
+                          <TR>
+                            <TD class="left10 25" width="70%" 
+                            align=middle>11</TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 
+                        cellPadding=0 width=745 align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class="l24 left10">摄影器材： <A 
+                              href="http://pdlib.pconline.com.cn/service/ls_show_product.jsp?id=161851">佳能 
+                              EOS 400D(Rebel XTi)</A> <SPAN><A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank>点击查看该器材网购实价</A> <A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank><IMG 
+                              src="蓝花楹%20-%20摄影部落_files/shopping_cart.gif"></A></SPAN> 
+                              <SPAN class=red><A 
+                              href="http://dp.pconline.com.cn/photoblog/sample.do?method=show&amp;model=161851" 
+                              target=_blank>(查看该器材所有样张)</A></SPAN> 
+                              &nbsp;&nbsp;&nbsp;<SPAN 
+                              id=kzdQuestions11></SPAN><BR>拍摄参数： 曝光:Auto 
+                              exposure 光圈:F5.6 快门:1/640 sec ISO:100 曝光补偿:2/3 
+                            EV</TD></TR></TBODY></TABLE><BR><BR>
+                        <TABLE 
+                        style="BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid" 
+                        border=0 cellSpacing=0 cellPadding=0 width=745 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD width="100%" colSpan=2 align=middle><A 
+                              href="http://dp.pconline.com.cn/photoblog/pic.do?src=http://img.pconline.com.cn/images/photoblog/3/9/1/1/3911728/20087/17/1216291657289.jpg"><IMG 
+                              border=0 alt=点击查看原图 vspace=12 
+                              src="蓝花楹%20-%20摄影部落_files/1216291657289_mthumb.jpg"> 
+                              </A></TD></TR>
+                          <TR>
+                            <TD class="left10 25" width="70%" 
+                            align=middle>12</TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 5px" border=0 cellSpacing=0 
+                        cellPadding=0 width=745 align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class="l24 left10">摄影器材： <A 
+                              href="http://pdlib.pconline.com.cn/service/ls_show_product.jsp?id=161851">佳能 
+                              EOS 400D(Rebel XTi)</A> <SPAN><A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank>点击查看该器材网购实价</A> <A 
+                              href="http://m.pconline.com.cn/searchProductResult.jsp?keyword=佳能 EOS 400D(Rebel XTi)" 
+                              target=_blank><IMG 
+                              src="蓝花楹%20-%20摄影部落_files/shopping_cart.gif"></A></SPAN> 
+                              <SPAN class=red><A 
+                              href="http://dp.pconline.com.cn/photoblog/sample.do?method=show&amp;model=161851" 
+                              target=_blank>(查看该器材所有样张)</A></SPAN> 
+                              &nbsp;&nbsp;&nbsp;<SPAN 
+                              id=kzdQuestions12></SPAN><BR>拍摄参数： 曝光:Auto 
+                              exposure 光圈:F5.6 快门:1/640 sec ISO:100 曝光补偿:2/3 
+                            EV</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+                  <TABLE style="MARGIN-TOP: 8px" border=0 cellSpacing=1 
+                  cellPadding=0 width=745 bgColor=#dddddd align=center>
+                    <TBODY>
+                    <TR>
+                      <TD bgColor=#f6f6f6 height=30>
+                        <TABLE class=b border=0 cellSpacing=0 cellPadding=0 
+                        width="97%" align=center>
+                          <TBODY>
+                          <TR>
+                            <TD rowSpan=2 width=30><IMG hspace=4 vspace=4 
+                              align=absMiddle 
+                              src="蓝花楹%20-%20摄影部落_files/look.gif" width=15 
+                              height=22></TD>
+                            <TD rowSpan=2>点击：<SPAN class=red>2040</SPAN></TD>
+                            <TD rowSpan=2 width=30><IMG hspace=4 vspace=4 
+                              align=absMiddle 
+                              src="蓝花楹%20-%20摄影部落_files/piao.gif" width=13 
+                              height=22></TD>
+                            <TD rowSpan=2>得票：<SPAN class=red>172</SPAN></TD>
+                            <TD rowSpan=2 width=30><IMG hspace=4 vspace=4 
+                              align=absMiddle src="蓝花楹%20-%20摄影部落_files/fav.gif" 
+                              width=18 height=22></TD>
+                            <TD onmouseover="showDisplayLayers('markDesc');" 
+                            onmouseout="showDisplayLayers('markDesc');">收藏：<SPAN 
+                              class=red>1</SPAN></TD>
+                            <TD rowSpan=2 width=30><IMG hspace=4 vspace=4 
+                              align=absMiddle 
+                              src="蓝花楹%20-%20摄影部落_files/addfav.gif" width=13 
+                              height=22></TD>
+                            <TD rowSpan=2><A 
+                              href="http://dp.pconline.com.cn/photoblog/favorite.do?method=addPhoto&amp;pid=473594">收藏作品</A></TD>
+                            <TD rowSpan=2 width=30><IMG hspace=4 vspace=4 
+                              align=absMiddle 
+                              src="蓝花楹%20-%20摄影部落_files/addfriend.gif" width=19 
+                              height=22></TD>
+                            <TD rowSpan=2><A 
+                              href="http://dp.pconline.com.cn/photoblog/favorite.do?method=addFriend&amp;fid=3911728">加为好友</A></TD>
+                            <TD rowSpan=2 width=30><IMG hspace=4 vspace=4 
+                              align=absMiddle 
+                              src="蓝花楹%20-%20摄影部落_files/baishi.gif" width=15 
+                              height=22></TD>
+                            <TD rowSpan=2><A 
+                              href="http://dp.pconline.com.cn/photoblog/masterPrentice.do?method=applyPage&amp;masterAccountId=3911728">拜师</A></TD></TR>
+                          <TR>
+                            <TD onmouseover="showDisplayLayers('markDesc');" 
+                            onmouseout="showDisplayLayers('markDesc');">
+                              <DIV 
+                              style="POSITION: absolute; BACKGROUND-COLOR: #ffffcb; DISPLAY: none" 
+                              id=markDesc>
+                              <TABLE 
+                              style="TABLE-LAYOUT: fixed; WORD-BREAK: break-all" 
+                              border=0 cellSpacing=0 cellPadding=6 
+                                width="100%"><TBODY>
+                                <TR>
+                                <TD><A 
+                                href="http://dp.pconline.com.cn/photoblog/page.do?method=homePage&amp;aid=10012977" 
+                                target=_blank>小蝎子</A> 
+                              </TD></TR></TBODY></TABLE></DIV>
+                              <SCRIPT>
+function showDisplayLayers(id){
+    var v,top;
+    var obj = document.getElementById(new String(id));
+    if(obj.style.display == ""){
+		v = "none";
+    } else {
+        v = "";
+    }
+    obj.style.display=v;
+}
+          </SCRIPT>
+                            </TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD bgColor=#ffffff height=30>
+                        <TABLE border=0 cellSpacing=0 cellPadding=0 width="96%" 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD>所属主题：生态</TD>
+                            <TD>摄影地点：深圳</TD>
+                            <TD>摄影时间：2008-05-17</TD>
+                            <TD>作品性质：原创</TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD bgColor=#f6f6f6 height=30>
+                        <TABLE border=0 cellSpacing=0 cellPadding=0 width="96%" 
+                        align=center>
+                          <TBODY>
+                          <TR>
+                            <TD class=l24 vAlign=top width=60>作品概括：</TD>
+                            <TD class=l24>中 文 
+                              名：蓝花楹、巴西紫葳、非洲紫葳<BR>学　　名：Jacaranda 
+                              acutifolia<BR>所属科目：紫崴科蓝花楹属<BR>拍摄时间：2008-05<BR>拍摄地点：深圳<BR>简要介绍：蓝花楹，树冠高大，株高可达15米以上，叶互生，二回羽状复叶，小叶细小，羽状，着生紧密，颇为秀丽。顶生或腋生的圆锥花序，花极繁多，深蓝色或青紫色，布满枝头，极为壮观。每序花长可达20厘米，有花数十朵，花钟形。花二唇状，内有四个雄蕊，两长两短，及一顶端丝状裂的假雄蕊。蒴果圆形、扁平，种子圆形，薄翼状。巴西、西印度群岛、秘鲁、坡利维亚植株型态：落叶乔木，外形酷似凤凰木。</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+          <TD width=6><IMG src="" width=1 
+  height=1></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE style="MARGIN-BOTTOM: 40px" border=0 cellSpacing=0 cellPadding=0 
+width=980 align=center>
+  <TBODY>
+  <TR>
+    <TD 
+    style="BORDER-BOTTOM: #e2e2e2 4px solid; BORDER-LEFT: #e2e2e2 4px solid; BORDER-TOP: #e2e2e2 4px; BORDER-RIGHT: #e2e2e2 4px solid">
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width=760 bgColor=#ffffff 
+      align=center>
+        <TBODY>
+        <TR>
+          <TD width=6><IMG src="" width=1 height=1></TD>
+          <TD vAlign=top width=748 align=left>
+            <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+              <TBODY>
+              <TR>
+                <TD align=left><BR>
+                  <TABLE style="MARGIN-TOP: 5px; MARGIN-BOTTOM: 8px" border=0 
+                  cellSpacing=0 cellPadding=0 width="100%">
+                    <TBODY>
+                    <TR>
+                      <TD class="dashed2 b l26 f14 w2" 
+                    align=left>最新公告</TD></TR></TBODY></TABLE><IFRAME height=50 
+                  src="蓝花楹%20-%20摄影部落_files/index.htm" frameBorder=0 width=744 
+                  scrolling=no></IFRAME><BR>
+                  <TABLE style="MARGIN-TOP: 5px; MARGIN-BOTTOM: 8px" border=0 
+                  cellSpacing=0 cellPadding=0 width="100%">
+                    <TBODY>
+                    <TR>
+                      <TD class="dashed2 b l26 f14 w2" 
+                    align=left>最新热帖</TD></TR></TBODY></TABLE><IFRAME height=50 
+                  src="蓝花楹%20-%20摄影部落_files/index(1).htm" frameBorder=0 
+                  width=744 scrolling=no></IFRAME><BR>
+                  <TABLE style="MARGIN-TOP: 5px; MARGIN-BOTTOM: 8px" border=0 
+                  cellSpacing=0 cellPadding=0 width="100%">
+                    <TBODY>
+                    <TR>
+                      <TD class="dashed2 b l26 f14 w2" 
+                    align=left>最新热作</TD></TR></TBODY></TABLE>
+                  <DIV style="WIDTH: 744px; HEIGHT: 120px; OVERFLOW: hidden" 
+                  id=hotpicmove>
+                  <TABLE border=0 cellPadding=0 align=center>
+                    <TBODY>
+                    <TR>
+                      <TD id=hotpicmove1><A 
+                        href="http://itbbs.pconline.com.cn/dc/11349714.html" 
+                        target=_blank><IMG hspace=10 vspace=10 
+                        src="蓝花楹%20-%20摄影部落_files/1273460847814_thumb.jpg"></A>&nbsp; 
+                        <A href="http://itbbs.pconline.com.cn/dc/11393478.html" 
+                        target=_blank><IMG hspace=10 vspace=10 
+                        src="蓝花楹%20-%20摄影部落_files/1273542933393_thumb.jpg"></A>&nbsp; 
+                        <A href="http://itbbs.pconline.com.cn/dc/11357906.html" 
+                        target=_blank><IMG hspace=10 vspace=10 
+                        src="蓝花楹%20-%20摄影部落_files/1272953989374_thumb.jpg"></A>&nbsp; 
+                        <A href="http://itbbs.pconline.com.cn/dc/11367290.html" 
+                        target=_blank><IMG hspace=10 vspace=10 
+                        src="蓝花楹%20-%20摄影部落_files/1272944470383_thumb.jpg"></A>&nbsp; 
+                        <A href="http://dc.pconline.com.cn/brand/canon10/photo/" 
+                        target=_blank><IMG hspace=10 vspace=10 
+                        src="蓝花楹%20-%20摄影部落_files/1273635885908_thumb.jpg"></A>&nbsp; 
+                        <A 
+                        href="http://dp.pconline.com.cn/photoblog/page.do?method=picPage&amp;from=photoblog&amp;pid=1858153" 
+                        target=_blank><IMG border=0 hspace=10 vspace=10 
+                        src="蓝花楹%20-%20摄影部落_files/1273472722954_thumb.jpg"></A>&nbsp; 
+                        <A 
+                        href="http://dp.pconline.com.cn/photoblog/page.do?method=picPage&amp;from=photoblog&amp;pid=1856379" 
+                        target=_blank><IMG border=0 hspace=10 vspace=10 
+                        src="蓝花楹%20-%20摄影部落_files/1273473334110_thumb.jpg"></A>&nbsp; 
+                        <A 
+                        href="http://dp.pconline.com.cn/photoblog/page.do?method=picPage&amp;from=photoblog&amp;pid=1858238" 
+                        target=_blank><IMG border=0 hspace=10 vspace=10 
+                        src="蓝花楹%20-%20摄影部落_files/1273465463540_thumb.jpg"></A>&nbsp; 
+                        <A 
+                        href="http://dp.pconline.com.cn/photoblog/page.do?method=picPage&amp;from=photoblog&amp;pid=1858286" 
+                        target=_blank><IMG border=0 hspace=10 vspace=10 
+                        src="蓝花楹%20-%20摄影部落_files/1273465923903_thumb.jpg"></A>&nbsp; 
+                        <A 
+                        href="http://dp.pconline.com.cn/photoblog/page.do?method=picPage&amp;from=photoblog&amp;pid=1846387" 
+                        target=_blank><IMG border=0 hspace=10 vspace=10 
+                        src="蓝花楹%20-%20摄影部落_files/1273473603473_thumb.jpg"></A>&nbsp; 
+                      </TD>
+                      <TD id=hotpicmove2>
+                        <SCRIPT>
+var speed=30
+hotpicmove2.innerHTML=hotpicmove1.innerHTML
+function Marquee(){
+if(hotpicmove2.offsetWidth-hotpicmove.scrollLeft<=0)
+hotpicmove.scrollLeft-=hotpicmove1.offsetWidth
+else{
+hotpicmove.scrollLeft++
+}
+}
+var MyMar=setInterval(Marquee,speed)
+hotpicmove.onmouseover=function() {clearInterval(MyMar)}
+hotpicmove.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+        </SCRIPT>
+                      </TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+            <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+              <TBODY>
+              <TR>
+                <TD class="dashed2 b l26 f14 w2">网友评论</TD></TR>
+              <TR>
+                <TD><BR>
+                  <FORM id=form1 onsubmit="return submitForm(this)" method=post 
+                  name=form1 action=reply.do?method=addReply><INPUT 
+                  value=page.do type=hidden name=actionStr> <INPUT 
+                  value=photoPage type=hidden name=methodStr> <INPUT 
+                  value=473594 type=hidden name=photoId> <INPUT value=3911728 
+                  type=hidden name=ownerId> 
+                  <TABLE border=0 cellSpacing=1 cellPadding=0 width="98%" 
+                  bgColor=#dddddd align=center>
+                    <TBODY>
+                    <TR>
+                      <TD bgColor=#f6f6f6 height=30 width=130 
+                        align=middle>发表评论：</TD>
+                      <TD bgColor=#ffffff>
+                        <TABLE border=0 cellSpacing=0 cellPadding=0 
+width="100%">
+                          <TBODY>
+                          <TR>
+                            <TD class="left10 h30">帐号：<INPUT 
+                              style="WIDTH: 80px" class=input2 
+                              name=username>&nbsp;&nbsp;密码：<INPUT 
+                              style="WIDTH: 80px" class=input2 type=password 
+                              name=password></TD>
+                            <TD align=right>( 登陆后才可发表评论 
+                        )&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD class=h30 bgColor=#f6f6f6 vAlign=top 
+                        align=middle><SPAN class="l26 boxbg">发表评分：</SPAN></TD>
+                      <TD bgColor=#ffffff>
+                        <TABLE border=0 cellSpacing=0 cellPadding=1 
+                          width="95%"><TBODY>
+                          <TR>
+                            <TD width="78%"><INPUT onclick=set_enabled(this); 
+                              value=1 type=radio name=post_points> 参与评分，提交分数。　 
+                              <INPUT onclick=set_enabled(this); value=0 CHECKED 
+                              type=radio name=post_points> 不参与评分，只参加发言评论。</TD>
+                            <TD width="22%"><INPUT id=grade onclick=toGrade(this.form); value=我要评分 type=button name=grade></TD></TR></TBODY></TABLE>
+                        <TABLE style="MARGIN-TOP: 8px" border=0 cellSpacing=0 
+                        cellPadding=0 width=580>
+                          <TBODY>
+                          <TR>
+                            <TD class=bold>构图</TD>
+                            <TD><SELECT id=构图 disabled name=opuscom_points[]> 
+                                <OPTION selected value=0>评分</OPTION> <OPTION 
+                                value=1>1</OPTION> <OPTION value=2>2</OPTION> 
+                                <OPTION value=3>3</OPTION> <OPTION 
+                                value=4>4</OPTION> <OPTION value=5>5</OPTION> 
+                                <OPTION value=6>6</OPTION> <OPTION 
+                                value=7>7</OPTION> <OPTION value=8>8</OPTION> 
+                                <OPTION value=9>9</OPTION> <OPTION 
+                                value=10>10</OPTION></SELECT></TD>
+                            <TD class=bold>用光</TD>
+                            <TD><SELECT id=用光 disabled name=opuscom_points[]> 
+                                <OPTION selected value=0>评分</OPTION> <OPTION 
+                                value=1>1</OPTION> <OPTION value=2>2</OPTION> 
+                                <OPTION value=3>3</OPTION> <OPTION 
+                                value=4>4</OPTION> <OPTION value=5>5</OPTION> 
+                                <OPTION value=6>6</OPTION> <OPTION 
+                                value=7>7</OPTION> <OPTION value=8>8</OPTION> 
+                                <OPTION value=9>9</OPTION> <OPTION 
+                                value=10>10</OPTION></SELECT> </TD>
+                            <TD class=bold>色彩</TD>
+                            <TD><SELECT id=色彩 disabled name=opuscom_points[]> 
+                                <OPTION selected value=0>评分</OPTION> <OPTION 
+                                value=1>1</OPTION> <OPTION value=2>2</OPTION> 
+                                <OPTION value=3>3</OPTION> <OPTION 
+                                value=4>4</OPTION> <OPTION value=5>5</OPTION> 
+                                <OPTION value=6>6</OPTION> <OPTION 
+                                value=7>7</OPTION> <OPTION value=8>8</OPTION> 
+                                <OPTION value=9>9</OPTION> <OPTION 
+                                value=10>10</OPTION></SELECT> </TD>
+                            <TD class=bold>创意</TD>
+                            <TD><SELECT id=创意 disabled name=opuscom_points[]> 
+                                <OPTION selected value=0>评分</OPTION> <OPTION 
+                                value=1>1</OPTION> <OPTION value=2>2</OPTION> 
+                                <OPTION value=3>3</OPTION> <OPTION 
+                                value=4>4</OPTION> <OPTION value=5>5</OPTION> 
+                                <OPTION value=6>6</OPTION> <OPTION 
+                                value=7>7</OPTION> <OPTION value=8>8</OPTION> 
+                                <OPTION value=9>9</OPTION> <OPTION 
+                                value=10>10</OPTION></SELECT> </TD>
+                            <TD class=bold>神态</TD>
+                            <TD><SELECT id=神态 disabled name=opuscom_points[]> 
+                                <OPTION selected value=0>评分</OPTION> <OPTION 
+                                value=1>1</OPTION> <OPTION value=2>2</OPTION> 
+                                <OPTION value=3>3</OPTION> <OPTION 
+                                value=4>4</OPTION> <OPTION value=5>5</OPTION> 
+                                <OPTION value=6>6</OPTION> <OPTION 
+                                value=7>7</OPTION> <OPTION value=8>8</OPTION> 
+                                <OPTION value=9>9</OPTION> <OPTION 
+                                value=10>10</OPTION></SELECT> </TD>
+                            <TD class=bold>瞬间</TD>
+                            <TD><SELECT id=瞬间 disabled name=opuscom_points[]> 
+                                <OPTION selected value=0>评分</OPTION> <OPTION 
+                                value=1>1</OPTION> <OPTION value=2>2</OPTION> 
+                                <OPTION value=3>3</OPTION> <OPTION 
+                                value=4>4</OPTION> <OPTION value=5>5</OPTION> 
+                                <OPTION value=6>6</OPTION> <OPTION 
+                                value=7>7</OPTION> <OPTION value=8>8</OPTION> 
+                                <OPTION value=9>9</OPTION> <OPTION 
+                                value=10>10</OPTION></SELECT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD class=h30 bgColor=#f6f6f6 vAlign=top 
+                        align=middle><SPAN class="l26 boxbg">评论内容：</SPAN></TD>
+                      <TD bgColor=#ffffff height=120>
+                        <TABLE border=0 cellSpacing=0 cellPadding=2 width=350>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG onclick=bold() alt=加粗 
+                              src="蓝花楹%20-%20摄影部落_files/ubb_01.jpg" width=23 
+                              height=22></TD>
+                            <TD><IMG onclick=italicize() alt=斜体 
+                              src="蓝花楹%20-%20摄影部落_files/ubb_02.jpg" width=23 
+                              height=22></TD>
+                            <TD><IMG onclick=underline() alt=下划线 
+                              src="蓝花楹%20-%20摄影部落_files/ubb_03.jpg" width=23 
+                              height=22></TD>
+                            <TD><IMG onclick=center() alt=居中 
+                              src="蓝花楹%20-%20摄影部落_files/ubb_04.jpg" width=23 
+                              height=22></TD><!-- <td><img onclick="image()" src="http://www.pconline.com.cn/digital/photo/images_dp2007/ubb_07.jpg" alt="插入图象" width="23" height="22" /></td> -->
+                            <TD><IMG onclick=hyperlink() alt=超链接 
+                              src="蓝花楹%20-%20摄影部落_files/ubb_09.jpg" width=23 
+                              height=22></TD>
+                            <TD><IMG onclick=email() alt=邮件 
+                              src="蓝花楹%20-%20摄影部落_files/ubb_10.jpg" width=23 
+                              height=22></TD>
+                            <TD><IMG onclick=quote() alt=引用 
+                              src="蓝花楹%20-%20摄影部落_files/ubb_11.jpg" width=23 
+                              height=22></TD>
+                            <TD><IMG onclick=setfly() alt=飞行字 
+                              src="蓝花楹%20-%20摄影部落_files/ubb_13.jpg" width=23 
+                              height=22></TD>
+                            <TD><IMG onclick=move() alt=移动文字 
+                              src="蓝花楹%20-%20摄影部落_files/ubb_14.jpg" width=23 
+                              height=22></TD>
+                            <TD><IMG onclick=glow() alt=发光字 
+                              src="蓝花楹%20-%20摄影部落_files/ubb_15.jpg" width=23 
+                              height=22></TD></TR></TBODY></TABLE>
+                        <TABLE title=~5000:! border=0 cellSpacing=0 
+                        cellPadding=2 width="97%" align=left>
+                          <TBODY>
+                          <TR>
+                            <TD>
+                              <TABLE border=0 cellSpacing=0 cellPadding=0>
+                                <TBODY>
+                                <TR>
+                                <TD width=82>
+                                <DIV><IMG title=em300 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em300.gif"></DIV></TD>
+                                <TD width=82>
+                                <DIV><IMG title=em301 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em301.gif"></DIV></TD>
+                                <TD width=82>
+                                <DIV><IMG title=em302 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em302.gif"></DIV></TD>
+                                <TD width=82>
+                                <DIV><IMG title=em303 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em303.gif"></DIV></TD>
+                                <TD width=82>
+                                <DIV><IMG title=em304 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em304.gif"></DIV></TD>
+                                <TD width=82>
+                                <DIV><IMG title=em305 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em305.gif"></DIV></TD>
+                                <TD width=33>
+                                <DIV><IMG title=em306 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em306.gif"></DIV></TD></TR>
+                                <TR>
+                                <TD>
+                                <DIV><IMG title=em307 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em307.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em308 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em308.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em309 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em309.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em310 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em310.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em311 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em311.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em312 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em312.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em313 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em313.gif"></DIV></TD></TR>
+                                <TR>
+                                <TD>
+                                <DIV><IMG title=em314 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em314.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em315 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em315.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em316 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em316.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em317 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em317.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em318 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em318.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em319 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em319.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em320 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em320.gif"></DIV></TD></TR>
+                                <TR>
+                                <TD>
+                                <DIV><IMG title=em321 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em321.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em322 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em322.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em323 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em323.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em324 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em324.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em325 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em325.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em326 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em326.gif"></DIV></TD>
+                                <TD>
+                                <DIV><IMG title=em327 onclick=putFace(this) 
+                                src="蓝花楹%20-%20摄影部落_files/em327.gif"></DIV></TD></TR></TBODY></TABLE></TD>
+                            <TD><SPAN id=gradeContent></SPAN><TEXTAREA style="BORDER-BOTTOM: #aebccd 1px solid; BORDER-LEFT: #aebccd 1px solid; WIDTH: 500px; BACKGROUND: #ffffff; HEIGHT: 80px; BORDER-TOP: #aebccd 1px solid; BORDER-RIGHT: #aebccd 1px solid" title=评论内容~3000:! onkeypress="if(event.ctrlKey &amp;&amp; (10 == event.keyCode || 13 == event.keyCode))  enter.click()" name=ubbContent></TEXTAREA> 
+                            </TD></TR>
+                          <TR>
+                            <TD height=30 colSpan=2 align=middle>显示我的最新作品 
+                              <INPUT value=1 type=checkbox name=showNewPhoto> 
+                              &nbsp;&nbsp;投上一票 <INPUT value=1 type=checkbox 
+                              name=vote> <!--&nbsp;&nbsp;验证码：
+								<input type="text" name="valiCode" class="input2" title="验证码~!" size="20"/> 
+    	 <img src="image.jsp?time=1273671377734" width="68" height="18"><input type="hidden" name="valiTime" value="1273671377734">-->&nbsp;&nbsp; 
+<INPUT id=enter class=submit2 value="提 交" type=submit name=enter> 
+                              &nbsp;&nbsp; <INPUT id=regsub class=submit2 onclick="window.open('http://userdb.pconline.com.cn/userdb/Register_enter.do?url_cancel=http://www.pconline.com.cn/digital/photo/&amp;url_success=http://www.pconline.com.cn/digital/photo/&amp;is_reg_adv=0','_blank')" value="注 册" type=button name=regsub> 
+                              &nbsp;&nbsp;[完成后可按 Ctrl+Enter 发布] 
+                        </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM><BR><SPAN 
+                  id=replyContent></SPAN><IFRAME id=_iframe_reply_content_ 
+                  height=300 marginHeight=0 src="蓝花楹%20-%20摄影部落_files/page.htm" 
+                  frameBorder=0 width="100%" 
+              marginWidth=0></IFRAME></TD></TR></TBODY></TABLE></TD>
+          <TD width=6><IMG src="" width=1 
+      height=1></TD></TR></TBODY></TABLE><BR><BR><BR></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=980 bgColor=#ffffff 
+align=center>
+  <TBODY>
+  <TR>
+    <TD align=middle>
+      <SCRIPT class=" defer" src="蓝花楹%20-%20摄影部落_files/bot.js"></SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<SCRIPT src="蓝花楹%20-%20摄影部落_files/account.htm"></SCRIPT>
+<SPAN style="DISPLAY: none" class=sp>
+<SCRIPT>
+	function getAccountType(accountTypeStr,accountTypeLinkStr){
+		if(accountTypeStr!="")document.getElementById("accountType").innerHTML = "<a href='"+accountTypeLinkStr+"' class='linkkzhidao' tagert='_blank'>"+accountTypeStr+"</a>";
+	}
+</SCRIPT>
+
+<SCRIPT defer src="蓝花楹%20-%20摄影部落_files/account_type.htm"></SCRIPT>
+
+<SCRIPT>
+	function callback(nums){
+		if(nums!=0){
+			for(i=1;i<=12;i++)
+				document.getElementById("kzdQuestions"+i).innerHTML = "<a href='http://k.pconline.com.cn/searchresult.html?title=%BC%D1%C4%DC+EOS+400D%28Rebel+XTi%29' class='linkkzhidao' target=_blank>共有" + nums + "条佳能 EOS 400D(Rebel XTi)的相关问题</a>";
+		}
+	}
+</SCRIPT>
+
+<SCRIPT defer src="蓝花楹%20-%20摄影部落_files/fastknowledge_cb.htm"></SCRIPT>
+<!-- START NNR Site Census V5.1 --><!-- COPYRIGHT 2004 Nielsen // Netratings --><!-- END NNR Site Census V5.1 --></SPAN>
+<SCRIPT src="蓝花楹%20-%20摄影部落_files/show(2).1]"></SCRIPT>
+
+<SCRIPT>_submitIvyID();</SCRIPT>
+</BODY></HTML>

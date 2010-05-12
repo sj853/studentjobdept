@@ -1,0 +1,12 @@
+(function(SRC,URL){
+    var w = 1*SRC.replace(/^.*#(\d+)x(\d+).*$|^.*$/,'$1'); if(w<1)w=950;
+    var h = 1*SRC.replace(/^.*#(\d+)x(\d+).*$|^.*$/,'$2'); if(h<1)h=90;
+    var trans = /#transparent/i.test(SRC)?'transparent':'opaque';
+    var close = /#close/i.test(SRC),close2 = /#close2/i.test(SRC);
+    SRC = SRC.replace(/#.*$/,'');
+
+    document.write('<OBJECT id=ad137297 classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000 WIDTH='+w+' HEIGHT='+h+'><PARAM name=flashvars value=id=ad137297><PARAM NAME=movie VALUE='+SRC+' ><EMBED id=ad137297b src='+SRC+' WIDTH='+w+' HEIGHT='+h+' flashvars=id=ad137297b TYPE=application/x-shockwave-flash PLUGINSPAGE=http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash wmode='+trans+'></EMBED><param name=wmode value='+trans+'></OBJECT>'
+    +(close?'<img style="z-index:100;width:16px;height:16px;background:url(http://www.pconline.com.cn/images/close_ad100.gif);position:absolute;right:0px; cursor:pointer;'+(close2?'top:'+(h-18)+'px':'top:1px;')+'" onClick="document.getElementById(\'ad137297\').style.display=\'none\';this.style.display=\'none\';" title="¹Ø±Õ">':''));
+
+})('http://imgad1.3conline.com/ivy/image/20105/12/1273661539829.swf##985x90','http://ivy.pconline.com.cn/adpuba/click?adid=137297&id=pc.shumasj.sheyingzhanqu.nytl1xf2.');
+_addIvyID("124166_137297");

@@ -1,0 +1,1 @@
+var google_host="www.photoshopcn.com";var google_charset="gbk";var google_hl="zh-CN";var google_lr="lang_zh-CN";
