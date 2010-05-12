@@ -1,0 +1,186 @@
+.cmtContentNew {
+	BORDER-BOTTOM: #d0d1d3 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #d0d1d3 1px solid; BACKGROUND: #fff; BORDER-TOP: #d0d1d3 1px; BORDER-RIGHT: #d0d1d3 1px solid
+}
+.cmtContentNew I {
+	FONT-STYLE: normal
+}
+.cmtContentNew A.f12 {
+	FONT-SIZE: 12px
+}
+.cmtContentNew .red {
+	COLOR: #f00
+}
+.cmtContentNew .red A {
+	COLOR: #f00
+}
+.cmtContentNew A.red {
+	COLOR: #f00
+}
+.cmtContentNew .mark {
+	FLOAT: left; MARGIN-LEFT: 10px
+}
+.cmtContentNew .subMark {
+	FLOAT: right; MARGIN-RIGHT: 10px
+}
+.cmtContentNew .thead {
+	LINE-HEIGHT: 31px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/cmt_img/pconlinebg.gif) repeat-x 0px 0px; HEIGHT: 31px
+}
+.cmtContentNew .thead .mark {
+	LINE-HEIGHT: 31px; WIDTH: 300px; HEIGHT: 31px
+}
+.cmtContentNew .thead .mark .imSub {
+	LINE-HEIGHT: 31px; PADDING-LEFT: 38px; WIDTH: 69px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/cmt_img/pconline.gif) no-repeat; FLOAT: left; HEIGHT: 31px; COLOR: #fff; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.cmtContentNew .thead .mark .imExp {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 31px; PADDING-LEFT: 12px; PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; FLOAT: left; FONT-SIZE: 12px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.cmtContentNew .tbody {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.cmtContentNew .cmtFormInput .loginBtn {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; TEXT-INDENT: -9999px; WIDTH: 40px; BORDER-TOP-STYLE: none; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/cmt_img/login.gif) no-repeat; HEIGHT: 25px; BORDER-LEFT-STYLE: none
+}
+.cmtContentNew .cmtFormInput .registBtn {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 40px; BORDER-TOP-STYLE: none; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/cmt_img/reg.gif) no-repeat; HEIGHT: 25px; BORDER-LEFT-STYLE: none
+}
+.cmtContentNew .cmtFormInput .logoutBtn {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; TEXT-INDENT: -9999px; WIDTH: 40px; BORDER-TOP-STYLE: none; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/cmt_img/out.gif) no-repeat; HEIGHT: 25px; BORDER-LEFT-STYLE: none
+}
+.cmtContentNew .cmtFormInput .myadmBtn {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 60px; BORDER-TOP-STYLE: none; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/cmt_img/manage.gif) no-repeat; HEIGHT: 25px; BORDER-LEFT-STYLE: none
+}
+#captcha {
+	BORDER-BOTTOM: #d1d1d1 1px solid; BORDER-LEFT: #d1d1d1 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #5f5f5f; FONT-SIZE: 12px; BORDER-TOP: #d1d1d1 1px solid; BORDER-RIGHT: #d1d1d1 1px solid; PADDING-TOP: 5px
+}
+.cmtContentNew .cmtPublish {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; PADDING-TOP: 0px
+}
+.cmtContentNew .cmtPublish DL {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; LIST-STYLE-TYPE: none; MARGIN: 12px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.cmtContentNew .cmtPublish DL DT {
+	BACKGROUND: #f3f3f3; HEIGHT: 25px; CLEAR: both; BORDER-TOP: #e1e1e1 1px solid
+}
+.cmtContentNew .cmtPublish DL DT A {
+	COLOR: #ff6b07; TEXT-DECORATION: underline
+}
+.cmtContentNew .cmtPublish DL DD {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; TEXT-INDENT: 2em; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WORD-WRAP: break-word; WHITE-SPACE: normal; CLEAR: both; FONT-SIZE: 14px; OVERFLOW: hidden; WORD-BREAK: break-all; PADDING-TOP: 0px
+}
+.cmtContentNew .cmtPublish .iFloor {
+	COLOR: #848484
+}
+.cmtContentNew .cmtPublish .iName {
+	COLOR: #ff6b07
+}
+.cmtContentNew .cmtPublish .iTime {
+	COLOR: #848484
+}
+.cmtContentNew .cmtPublish .odd {
+	
+}
+.cmtContentNew .cmtPublish .even {
+	
+}
+.cmtContentNew .cmtForm {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 12px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: both; BORDER-TOP: #e1e1e1 0px solid; PADDING-TOP: 5px
+}
+.cmtContentNew .cmtForm FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 0px
+}
+.cmtContentNew .cmtForm TD {
+	VERTICAL-ALIGN: middle
+}
+.cmtContentNew .cmtForm TD IMG {
+	VERTICAL-ALIGN: middle
+}
+.cmtContentNew .cmtForm TD INPUT {
+	VERTICAL-ALIGN: middle
+}
+.cmtContentNew .cmtForm TD.formInfo .input {
+	BORDER-BOTTOM: #d1d1d1 1px solid; BORDER-LEFT: #d1d1d1 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #5f5f5f; FONT-SIZE: 12px; BORDER-TOP: #d1d1d1 1px solid; BORDER-RIGHT: #d1d1d1 1px solid; PADDING-TOP: 5px
+}
+.cmtContentNew .cmtForm TD.formInfo .subMark {
+	LINE-HEIGHT: 30px
+}
+.cmtContentNew .cmtForm TD.textarea {
+	TEXT-ALIGN: center
+}
+.cmtContentNew .cmtForm TD.textarea TEXTAREA {
+	BORDER-BOTTOM: #d1d1d1 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #d1d1d1 1px solid; PADDING-BOTTOM: 0px; MARGIN: 5px auto; PADDING-LEFT: 0px; WIDTH: 99%; PADDING-RIGHT: 0px; HEIGHT: 10em; COLOR: #5f5f5f; FONT-SIZE: 12px; BORDER-TOP: #d1d1d1 1px solid; BORDER-RIGHT: #d1d1d1 1px solid; PADDING-TOP: 0px
+}
+.cmtContentNew .cmtForm TD.formSubmit {
+	LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.cmtContentNew .cmtForm TD.formSubmit .mark {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 12px
+}
+.cmtContentNew .cmtForm TD.formSubmit .subMark {
+	FLOAT: left
+}
+.cmtHotArticle {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; ZOOM: 1; DISPLAY: none; CLEAR: both; PADDING-TOP: 0px
+}
+.cmtHotArticle .divTitle {
+	TEXT-ALIGN: left; MARGIN-BOTTOM: 5px; FONT-SIZE: 14px
+}
+.cmtHotArticle .divList UL {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.cmtHotArticle .divList UL LI {
+	LIST-STYLE-TYPE: none
+}
+.cmtLinkArticle {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; ZOOM: 1; CLEAR: both; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.cmtLinkArticle A {
+	FONT-WEIGHT: normal
+}
+.formTotal {
+	TEXT-ALIGN: right; PADDING-RIGHT: 12px; FONT-SIZE: 14px
+}
+.formTotal .viewMore {
+	COLOR: #003497; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+#comment_tag .cmtHotArticle {
+	DISPLAY: none
+}
+#cmt #comment_tag TABLE {
+	HEIGHT: auto
+}
+#cmt #_comment_tag_ TABLE {
+	HEIGHT: auto
+}
+#cmt TABLE.cmtFormInput {
+	HEIGHT: auto
+}
+#comment_tag .imExp STRONG {
+	DISPLAY: inline
+}
+.main990 #cmt {
+	COLOR: #333
+}
+.main990 #cmt A:link {
+	COLOR: #333
+}
+.main990 #cmt A:visited {
+	COLOR: #333
+}
+.main990 #cmt A:active {
+	COLOR: #333
+}
+.cmtContentNew .cmtFormInput .myadmBtn {
+	HEIGHT: 26px; VERTICAL-ALIGN: middle
+}
+.cmtContentNew .cmtFormInput .logoutBtn {
+	HEIGHT: 26px; VERTICAL-ALIGN: middle
+}
+.cmtContentNew .cmtFormInput .loginBtn {
+	HEIGHT: 26px; VERTICAL-ALIGN: middle
+}
+.cmtContentNew .cmtFormInput .registBtn {
+	HEIGHT: 26px; VERTICAL-ALIGN: middle
+}
+.cmtContentNew .cmtForm TD INPUT {
+	PADDING-BOTTOM: 3px
+}

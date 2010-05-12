@@ -1,0 +1,699 @@
+.navWrap {
+	BORDER-BOTTOM: #e0e0e0 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #e0e0e0 1px solid; MARGIN: 0px auto; WIDTH: 958px; BORDER-TOP: #e0e0e0 1px solid; BORDER-RIGHT: #e0e0e0 1px solid
+}
+.navWrap .moreNav {
+	Z-INDEX: 999; BORDER-BOTTOM: #d7d7d7 1px solid; POSITION: absolute; BORDER-LEFT: #d7d7d7 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BACKGROUND: #fff; BORDER-TOP: #d7d7d7 1px solid; BORDER-RIGHT: #d7d7d7 1px solid; PADDING-TOP: 0px
+}
+.navWrap .moreNav .sIcon {
+	MARGIN: 0px auto; WIDTH: 10px; DISPLAY: block; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat 0px -105px; HEIGHT: 5px; OVERFLOW: hidden
+}
+.navWrap .moreNav A {
+	BORDER-BOTTOM: #d7d7d7 1px dashed; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; PADDING-LEFT: 4px; PADDING-RIGHT: 3px; DISPLAY: block; HEIGHT: 20px; PADDING-TOP: 0px
+}
+.navWrap .moreNav A:hover {
+	BACKGROUND: #a4bfce; COLOR: #fff
+}
+.navWrap .moreNav A.aLine:hover {
+	BACKGROUND: #a4bfce; COLOR: #fff
+}
+.navWrap .important {
+	COLOR: #d50000; FONT-WEIGHT: bold
+}
+.navSimple {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) white repeat-x 0px 0px; HEIGHT: 24px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.navSimple .leftProduct {
+	TEXT-ALIGN: left; FLOAT: left; HEIGHT: 24px
+}
+.navSimple .rightOther {
+	WIDTH: auto; FLOAT: right; HEIGHT: 24px
+}
+.navSimple .rightOther I {
+	DISPLAY: block; FLOAT: left
+}
+.navSimple .rightOther .iOther {
+	PADDING-LEFT: 100px; WIDTH: 72px; HEIGHT: 24px
+}
+.navSimple .rightOther .iOther .loginTxt {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat -128px -79px; PADDING-TOP: 0px
+}
+.navSimple .rightOther .loginInfo {
+	PADDING-LEFT: 8px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat -128px -74px; HEIGHT: 24px
+}
+.navSimple .rightOther .iSite {
+	LINE-HEIGHT: 19px; MARGIN-TOP: 2px; WIDTH: 129px; BACKGROUND: url(http://www1.pcauto.com.cn/global/2009/images/select_bg.gif) no-repeat; FLOAT: right; HEIGHT: 22px
+}
+.navSimple .rightOther UL {
+	WIDTH: 119px
+}
+.navSimple .rightOther .leadLinks {
+	CURSOR: pointer
+}
+.navSimple .rightOther .leadLinks LI {
+	PADDING-LEFT: 8px; WIDTH: 119px; HEIGHT: 19px; COLOR: #919ca2
+}
+.navSimple .rightOther .siteLinks {
+	LIST-STYLE: none none outside; Z-INDEX: 1999; POSITION: absolute; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 129px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www1.pcauto.com.cn/global/2009/images/select_bg.gif) no-repeat -168px bottom; PADDING-TOP: 0px
+}
+.navSimple .rightOther .siteLinks LI A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-LEFT: 10px; WIDTH: 112px; PADDING-RIGHT: 10px; DISPLAY: block; BACKGROUND: url(http://www1.pcauto.com.cn/global/2009/images/select_bg.gif) repeat-y -168px 0px; HEIGHT: 22px; COLOR: #919ca2; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.navSimple .rightOther .siteLinks A:hover {
+	BACKGROUND: url(http://www1.pcauto.com.cn/global/2009/images/select_bg.gif) no-repeat 0px -98px; COLOR: #ffffff
+}
+.navSimple .moreBbs {
+	MARGIN: 19px 0px 0px -53px; WIDTH: 80px
+}
+.navSimple .moreProNav {
+	MARGIN: 19px 0px 0px -53px; WIDTH: 120px
+}
+.navSimple .moreProNav A {
+	WIDTH: 50px; FLOAT: left; OVERFLOW: hidden
+}
+.navSimple .moreProNav A.aLine {
+	PADDING-LEFT: 10px; WIDTH: 40px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_aLine.gif) no-repeat 0px 5px
+}
+#simpleNav .rightOther {
+	WIDTH: auto
+}
+#simpleNav .moreBbs {
+	MARGIN: 19px 0px 0px -53px
+}
+#simpleNav .moreProNav {
+	MARGIN: 19px 0px 0px -53px
+}
+#simpleNav .leftProduct {
+	WORD-SPACING: 4px
+}
+.navChannel {
+	BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) white repeat-x 0px -24px; HEIGHT: 54px
+}
+.navChannel .navLogo {
+	WIDTH: 105px; FLOAT: left; HEIGHT: 53px; OVERFLOW: hidden; PADDING-TOP: 1px
+}
+.navChannel .navLogo IMG {
+	VERTICAL-ALIGN: middle
+}
+.navChannel .navTxt {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; PADDING-LEFT: 0px; WIDTH: 853px; PADDING-RIGHT: 0px; FLOAT: right; HEIGHT: 48px; PADDING-TOP: 5px
+}
+.navChannel .navTxt LI {
+	FLOAT: left; HEIGHT: 24px
+}
+.navChannel .navTxt .marketNav {
+	
+}
+.navChannel .navTxt I {
+	COLOR: #dedede
+}
+.navChannel .navTxt .l1 {
+	LETTER-SPACING: 2px
+}
+.navChannel .moreMarket {
+	MARGIN: 20px 0px 0px -156px; WIDTH: 160px; LETTER-SPACING: 0px
+}
+.navChannel .moreMarket A {
+	FLOAT: left
+}
+.nav1000 .navWrap {
+	WIDTH: 998px
+}
+.nav1000 .navChannel .navTxt {
+	WIDTH: 890px
+}
+.nav1000 .navChannel .navTxt I {
+	MARGIN: 0px 1px
+}
+.nav1000 .navWrap .moreNav .sIcon {
+	MARGIN: 0px auto
+}
+.nav1000 .navChannel .sMarket A {
+	MARGIN: 0px 1px
+}
+.cha1000 .chaNav {
+	WIDTH: 990px
+}
+.cha1000 .chaNav .chaExt {
+	WIDTH: 988px
+}
+.chaExt .pro_list {
+	FLOAT: left
+}
+.chaExt .pro_list LI {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+.chaExt .pro_list LI .iPrice {
+	DISPLAY: none
+}
+.chaExt .pro_list LI .iForum {
+	DISPLAY: none
+}
+.chaExt .pro_list LI .iPower {
+	DISPLAY: none
+}
+.chaExt .pro_list LI .cart {
+	DISPLAY: none
+}
+.chaNav {
+	TEXT-ALIGN: left; MARGIN: 0px auto; WIDTH: 950px; OVERFLOW: hidden
+}
+.chaNav DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.chaNav DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.chaNav DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.chaNav .chaTop {
+	BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat 0px -114px; HEIGHT: 38px; _overflow: hidden
+}
+.chaNav .chaLogo {
+	FLOAT: left; HEIGHT: 38px
+}
+.chaNav .chaMenu {
+	FLOAT: right; HEIGHT: 29px; PADDING-TOP: 9px
+}
+.chaNav .chaMenu UL {
+	BORDER-BOTTOM: #b5bbcb 1px; BORDER-LEFT: #b5bbcb 1px solid; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) repeat-x 0px -154px; HEIGHT: 28px; FONT-SIZE: 14px; BORDER-TOP: #b5bbcb 1px solid; BORDER-RIGHT: #b5bbcb 1px solid; _float: left; _overflow: hidden
+}
+.chaNav .chaMenu LI {
+	LINE-HEIGHT: 28px; FLOAT: left; BORDER-RIGHT: #b5bbcb 1px solid
+}
+.chaNav .chaMenu LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; ZOOM: 1; DISPLAY: block; HEIGHT: 28px; PADDING-TOP: 0px; _float: left
+}
+.chaNav .chaMenu .liCoop {
+	BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) repeat-x 0px -183px
+}
+.chaNav .chaMenu .last {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.chaNav .chaMenu .current {
+	POSITION: relative; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN: -1px 0px 0px -1px; BORDER-TOP-STYLE: none; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat 0px -275px; BORDER-LEFT-STYLE: none
+}
+.chaNav .chaMenu .current A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat right -306px; HEIGHT: 29px; COLOR: #fff; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.chaNav .chaLan {
+	WIDTH: 145px; FLOAT: right; HEIGHT: 25px; PADDING-TOP: 13px
+}
+.chaNav .chaLan LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 21px; WIDTH: 60px; DISPLAY: inline; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat -248px -417px; FLOAT: left; HEIGHT: 21px; MARGIN-LEFT: 8px
+}
+.chaNav .chaLan LI A.current:link {
+	COLOR: #d50000
+}
+.chaNav .chaLan LI A.current:visited {
+	COLOR: #d50000
+}
+.chaNav .chaSub {
+	BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) repeat-x 0px -212px; HEIGHT: 28px; OVERFLOW: hidden; PADDING-TOP: 2px
+}
+.chaNav .chaSub A:link {
+	COLOR: #fff
+}
+.chaNav .chaSub A:visited {
+	COLOR: #fff
+}
+.chaNav .chaSub A:hover {
+	COLOR: #ff0
+}
+.chaNav .chaSub LI {
+	DISPLAY: inline; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat right -440px; FLOAT: left; MARGIN-LEFT: 10px
+}
+.chaNav .chaSub LI I {
+	LINE-HEIGHT: 28px; DISPLAY: block; FLOAT: left
+}
+.chaNav .chaSub .item3 {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.chaNav .chaSub .iTitle {
+	COLOR: #afb8f0
+}
+.chaNav .chaSub A {
+	MARGIN-RIGHT: 5px
+}
+.chaNav .chaExt {
+	BORDER-BOTTOM: #b5bcc2 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #b5bcc2 1px solid; WIDTH: 948px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) repeat-x 0px bottom; BORDER-TOP: #b5bcc2 1px; BORDER-RIGHT: #b5bcc2 1px solid
+}
+.chaNav .chaQs {
+	BORDER-LEFT: #b5bcc2 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 16px; PADDING-RIGHT: 16px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) #fdfdfe repeat-x 0px -242px; HEIGHT: 30px; OVERFLOW: hidden; BORDER-RIGHT: #b5bcc2 1px solid; PADDING-TOP: 0px
+}
+.chaNav .qsFrom {
+	PADDING-LEFT: 60px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat 0px -378px; FLOAT: left; HEIGHT: 29px
+}
+.chaNav .qsFrom SPAN {
+	DISPLAY: block; FLOAT: left; HEIGHT: 29px; OVERFLOW: hidden
+}
+.chaNav .qsFrom .sInput {
+	WIDTH: 165px
+}
+.chaNav .qsFrom .ksKeyword {
+	MARGIN-TOP: 4px; WIDTH: 155px
+}
+.chaNav .qsFrom .sSelect {
+	WIDTH: 70px
+}
+.chaNav .qsFrom .ksType {
+	MARGIN-TOP: 5px; WIDTH: 65px; HEIGHT: 20px
+}
+.chaNav .qsFrom .sSubmit {
+	WIDTH: 60px
+}
+.chaNav .qsFrom .ksSubmit {
+	BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: center; BORDER-RIGHT-STYLE: none; MARGIN-TOP: 5px; WIDTH: 50px; BORDER-TOP-STYLE: none; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat 0px -417px; HEIGHT: 20px; BORDER-LEFT-STYLE: none; CURSOR: pointer; PADDING-TOP: 2px
+}
+.chaNav .qsKey {
+	LINE-HEIGHT: 29px; FLOAT: left; COLOR: #666
+}
+.chaNav .qsKey A:link {
+	COLOR: #666
+}
+.chaNav .qsKey A:visited {
+	COLOR: #666
+}
+.chaNav .qsKey A:hover {
+	COLOR: #f60
+}
+.chaNav .chaAct {
+	LINE-HEIGHT: 29px; FLOAT: right
+}
+.chaNav .chaAct A {
+	PADDING-LEFT: 20px; DISPLAY: inline; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif); FLOAT: left; MARGIN-LEFT: 8px; FONT-WEIGHT: bold
+}
+.chaNav .chaAct .option1 {
+	BACKGROUND-POSITION: -333px -477px
+}
+.chaNav .chaAct .option2 {
+	BACKGROUND-POSITION: -331px -508px
+}
+.chaNav .chaAct .option3 {
+	BACKGROUND-POSITION: -332px -540px
+}
+.chaNav .chaAct .option4 {
+	BACKGROUND-POSITION: -331px -574px
+}
+.chaNav .chaAct .option5 {
+	BACKGROUND-POSITION: -334px -607px
+}
+.chaNav .chaAct .option6 {
+	BACKGROUND-POSITION: -334px -644px
+}
+.chaNav .chaAct .option7 {
+	BACKGROUND-POSITION: -332px -688px
+}
+.chaNav .chaAct .option8 {
+	BACKGROUND-POSITION: -332px -726px
+}
+.chaNav .new {
+	POSITION: relative
+}
+.chaNav .new IMG {
+	POSITION: absolute; TOP: -3px; LEFT: 15px
+}
+.chaNav .chaItem {
+	BORDER-BOTTOM: #e8e8e8 1px solid; TEXT-ALIGN: left; MARGIN: 0px 8px; HEIGHT: 30px
+}
+.chaNav .chaItem DL {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 20px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; HEIGHT: 20px; PADDING-TOP: 4px
+}
+.chaNav .chaItem DT {
+	BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat 0px -337px; HEIGHT: 20px; MARGIN-RIGHT: 8px
+}
+.chaNav .chaItem DT I {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 13px; DISPLAY: block; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat right -357px; HEIGHT: 19px; PADDING-TOP: 1px; _float: left
+}
+.chaNav .chaItem .dlItem1 DD {
+	FONT-WEIGHT: bold; WORD-SPACING: 6px
+}
+.chaNav .chaItem .dlItem1 .moreBrand {
+	FONT-WEIGHT: normal
+}
+.chaNav .chaXj {
+	TEXT-ALIGN: center; LINE-HEIGHT: 21px; MARGIN-TOP: 4px; WIDTH: 83px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat -53px -417px; FLOAT: right; HEIGHT: 21px
+}
+.chaNav .chaXj A:link {
+	COLOR: #d50000
+}
+.chaNav .chaXj A:visited {
+	COLOR: #d50000
+}
+.chaNav .dlHotItem {
+	LINE-HEIGHT: 30px; MARGIN: 0px 8px; FLOAT: none; HEIGHT: 30px; BORDER-TOP: #e8e8e8 1px solid
+}
+.chaNav .dlHotItem DT {
+	TEXT-ALIGN: right; COLOR: #666
+}
+.chaNav .hotHide {
+	HEIGHT: auto; OVERFLOW: hidden
+}
+.chaNav .hotShow {
+	HEIGHT: 30px
+}
+.chaNav .hotShow .dlHotItem {
+	BORDER-BOTTOM-STYLE: none
+}
+.chaNav .hotShow .morePro {
+	MARGIN-TOP: 5px; WIDTH: 50px; FLOAT: right; HEIGHT: 20px
+}
+.chaNav .hotShow .morePro A {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 6px; WIDTH: 44px; DISPLAY: block; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat -192px -417px; HEIGHT: 20px
+}
+.chaNav .hotShow .morePro .close {
+	BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) no-repeat -139px -417px
+}
+.subContent {
+	Z-INDEX: 9999; BORDER-BOTTOM: #d0d0d0 1px solid; POSITION: absolute; TEXT-ALIGN: left; BORDER-LEFT: #d0d0d0 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND: #fff; VISIBILITY: hidden; BORDER-TOP: #d0d0d0 1px solid; BORDER-RIGHT: #d0d0d0 1px solid; PADDING-TOP: 2px
+}
+.subContent UL LI {
+	BORDER-BOTTOM: #d0d0d0 1px dotted; LINE-HEIGHT: 24px; TEXT-INDENT: 10px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/arrowy.gif) no-repeat left center
+}
+.subContent UL LI A {
+	WHITE-SPACE: nowrap
+}
+.subContent UL LI.own {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+#chaMobile {
+	
+}
+#chaDigital .chaItem DT {
+	TEXT-ALIGN: center; WIDTH: 65px
+}
+#chaDigital .chaItem DT I {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 6px; PADDING-TOP: 1px; _float: none
+}
+#chaDigital .chaItem .dlItem2 {
+	WIDTH: 460px
+}
+#chaDigital .chaItem .dlItem4 {
+	WIDTH: 460px
+}
+#chaDigital .chaItem .dlItem6 {
+	WIDTH: 460px
+}
+#chaDc .chaSub LI {
+	MARGIN-LEFT: 7px
+}
+#chaDc .chaSub A {
+	MARGIN-RIGHT: 7px
+}
+#chaFamily .chaSub LI {
+	MARGIN-LEFT: 8px
+}
+#chaFamily .chaSub A {
+	MARGIN-RIGHT: 8px
+}
+#chaFamily .dlHotItem DT {
+	WIDTH: 100px
+}
+#chaMst .chaItem .dlItem4 DT {
+	TEXT-ALIGN: center; WIDTH: 71px
+}
+#chaMst .chaItem .dlItem4 DT I {
+	_float: none
+}
+#chaGps .chaSub A {
+	MARGIN-RIGHT: 10px
+}
+#chaNotebook .dlItem2 {
+	WIDTH: 380px
+}
+#chaNotebook .dlItem4 {
+	WIDTH: 380px
+}
+#chaMid .chaItem .dlItem1 DD {
+	WORD-SPACING: 3px
+}
+#chaSmb .chaItem DL {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 0px; PADDING-RIGHT: 2px; PADDING-TOP: 4px
+}
+#chaSmb .chaItem DT {
+	MARGIN-RIGHT: 2px
+}
+#chaSmb .chaItem .dlItem4 {
+	WIDTH: 192px
+}
+#chaSmb .chaItem .dlItem7 {
+	WIDTH: 163px
+}
+#chaSmb .chaItem .dlItem7 DT {
+	LETTER-SPACING: 2px
+}
+#chaSmb .chaItem .dlItem8 {
+	WIDTH: 187px
+}
+#chaWeb .chaItem DL {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 0px; PADDING-RIGHT: 2px; PADDING-TOP: 4px
+}
+#chaWeb .chaItem .dlItem1 DT {
+	WIDTH: 73px
+}
+#chaWeb .chaItem .dlItem2 DT {
+	WIDTH: 73px
+}
+#chaWeb .chaItem .dlItem1 DT I {
+	TEXT-ALIGN: center; _float: none
+}
+#chaWeb .chaItem .dlItem2 DT I {
+	TEXT-ALIGN: center; _float: none
+}
+#chaWeb .chaItem DT I {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 8px; PADDING-TOP: 1px
+}
+#chaOffice .chaItem DL {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 4px
+}
+#chaOffice .chaItem DT I {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 6px; PADDING-TOP: 1px
+}
+#chaOffice .chaItem .dlItem1 DD {
+	WORD-SPACING: 0px
+}
+#chaDyj .dlHotItem DD SPAN {
+	COLOR: #656565
+}
+#chaTyj .chaItem DL {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 4px
+}
+#chaTyj .dlHotItem DD SPAN {
+	COLOR: #656565
+}
+#chaTyj .chaItem .dlItem1 DT {
+	LETTER-SPACING: 12px
+}
+#chaTyj .chaItem .dlItem1 DD {
+	WORD-SPACING: 0px
+}
+.subChaNav .chaQs {
+	BORDER-BOTTOM: #b5bcc2 1px solid; HEIGHT: 29px
+}
+#chaSoft .chaSub A {
+	MARGIN-RIGHT: 5px
+}
+#chaDown .chaAct {
+	WIDTH: 170px
+}
+.chaMarket {
+	
+}
+.chaMarket .chaSub A {
+	MARGIN-RIGHT: 4px
+}
+.chaMarket .chaItem DT I {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 6px; PADDING-TOP: 1px; _float: none
+}
+.chaMarket .chaItem DT {
+	WIDTH: 60px
+}
+.chaMarket .chaItem .dlItem2 {
+	WIDTH: 580px
+}
+.chaMarket .chaItem .dlItem4 {
+	WIDTH: 284px
+}
+.chaMarket .chaItem .dlItem5 {
+	WIDTH: 280px
+}
+.chaMarket .chaItem .dlItem7 {
+	WIDTH: 146px
+}
+.chaMarket .chaItem .dlItem9 {
+	WIDTH: 280px
+}
+.subCity {
+	BORDER-BOTTOM: #d7d7d7 1px solid; POSITION: absolute; BORDER-LEFT: #d7d7d7 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: 160px; PADDING-RIGHT: 5px; BACKGROUND: #fff; VISIBILITY: hidden; BORDER-TOP: #d7d7d7 1px solid; BORDER-RIGHT: #d7d7d7 1px solid; PADDING-TOP: 5px
+}
+.subCity A {
+	BORDER-BOTTOM: #d7d7d7 1px dashed; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; PADDING-LEFT: 4px; PADDING-RIGHT: 3px; DISPLAY: block; FLOAT: left; HEIGHT: 20px; PADDING-TOP: 0px
+}
+.subCity A:hover {
+	BACKGROUND: #a4bfce; COLOR: #fff
+}
+.subDiy .chaSub A {
+	MARGIN-RIGHT: 8px
+}
+.subDiy .chaSub LI {
+	MARGIN-LEFT: 8px; MARGIN-RIGHT: 5px
+}
+.subDiy .chaMenu LI A {
+	PADDING-LEFT: 8px; PADDING-RIGHT: 8px
+}
+#chaDiy .chaMenu .current A {
+	PADDING-TOP: 2px
+}
+#chamouse .chaMenu .current A {
+	PADDING-TOP: 2px
+}
+#chaDiy .chaSub A {
+	MARGIN-RIGHT: 5px
+}
+#chaDiy .chaMenu LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+#chamouse .chaMenu .ulcpu LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; PADDING-TOP: 0px
+}
+#chamouse .chaMenu .ulcpu LI.current A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; PADDING-TOP: 2px
+}
+#chamouse .chaItem .dlItemcpu1 DD {
+	FONT-WEIGHT: bold; WORD-SPACING: 1px
+}
+#chamouse .chaItem .dlItemcpu1 DT {
+	MARGIN-RIGHT: 4px
+}
+#chamouse .chaItem .dlItemcpu1 DL {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 8px; PADDING-RIGHT: 0px; PADDING-TOP: 4px
+}
+#chamouse .chaItem .dlItemcpu2 A {
+	MARGIN-RIGHT: 8px
+}
+#chamouse .chaItem .dlItemcpu2 DD SPAN {
+	COLOR: #656565
+}
+#chachamousecpu .chaItem .dlItemcpu3 A {
+	MARGIN-RIGHT: 8px
+}
+#chamouse .chaItem .dlItemcpu4 A {
+	MARGIN-RIGHT: 8px
+}
+#chamouse .chaMenu LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+#chamouse .chaSub A {
+	MARGIN-RIGHT: 8px
+}
+#chamouse .chaSub LI {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 5px
+}
+#chamouse .chaItem .dlItemdisplay2 A {
+	MARGIN-RIGHT: 6px
+}
+#chamouse .chaItem .dlItemdisplay3 A {
+	MARGIN-RIGHT: 6px
+}
+#chamouse .chaItem .dlItemdisplay3 {
+	PADDING-RIGHT: 30px
+}
+#chamouse .chaItem .dlItemdisplay4 A {
+	MARGIN-RIGHT: 6px
+}
+#chamouse .chaItem .dlItemstorage2 {
+	PADDING-RIGHT: 30px
+}
+#chamouse .chaItem .dlItem3 {
+	PADDING-LEFT: 30px
+}
+#chamouse .chaItem .dlItem4 {
+	PADDING-LEFT: 63px; MARGIN-RIGHT: 27px
+}
+#chamouse .chaAct A {
+	MARGIN-LEFT: 0px
+}
+#chamouse .chaItem .dlItemporwer1 DD {
+	FONT-WEIGHT: bold; WORD-SPACING: 3px
+}
+#chamouse .chaItem .dlItemmain1 DD {
+	FONT-WEIGHT: bold; WORD-SPACING: 2px
+}
+#chamouse .chaItem DD SPAN {
+	COLOR: #656565
+}
+#chamouse .chaItem .dlItemsound1 DD {
+	FONT-WEIGHT: bold; WORD-SPACING: 3px
+}
+#chaSoft .chaAct {
+	WIDTH: 245px
+}
+#chaSoft .chaAct A {
+	MARGIN-LEFT: 5px
+}
+#topHead {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 5px; WIDTH: 950px; PADDING-RIGHT: 5px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/navigation09_bg.gif) #fff repeat-x; HEIGHT: 25px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+#topHead STRONG {
+	DISPLAY: inline
+}
+#topHead A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+#topHead A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+#topHead A:hover {
+	COLOR: #f60
+}
+#topHead .aLink {
+	MARGIN-TOP: 5px; WIDTH: 740px; FLOAT: left
+}
+#topHead .loginBox {
+	MARGIN-TOP: 5px; FLOAT: left
+}
+#topHead .loginBox A {
+	PADDING-LEFT: 10px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/tophead_bg.gif) no-repeat -345px -98px
+}
+#topHead .webGroup {
+	MARGIN-TOP: 2px; FLOAT: right
+}
+#topHead .subContent {
+	BORDER-BOTTOM: #d7d7d7 1px solid; POSITION: absolute; BORDER-LEFT: #d7d7d7 1px solid; PADDING-BOTTOM: 5px; LINE-HEIGHT: 20px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; ZOOM: 1; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/subwinicon.gif) #fff no-repeat center top; VISIBILITY: hidden; OVERFLOW: hidden; BORDER-TOP: #d7d7d7 1px solid; BORDER-RIGHT: #d7d7d7 1px solid; PADDING-TOP: 5px
+}
+#topHead .subContent A {
+	BORDER-BOTTOM: #d7d7d7 1px dashed; PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: block; HEIGHT: 20px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+#topHead .subContent A:hover {
+	BACKGROUND: #a4bfce; COLOR: #fff
+}
+#topHead .subBox #headBbs {
+	WIDTH: 80px; MARGIN-LEFT: -25px
+}
+#topHead .subBox #winMore {
+	WIDTH: 120px; MARGIN-LEFT: -50px
+}
+#topHead .subBox #winMore A {
+	WIDTH: 48px; FLOAT: left
+}
+#topHead .subBox #webBox {
+	BORDER-BOTTOM: #8f9ca4 1px solid; POSITION: absolute; BORDER-LEFT: #8f9ca4 1px solid; PADDING-BOTTOM: 6px; MARGIN-TOP: -2px; WIDTH: 123px; BACKGROUND: #fff; VISIBILITY: hidden; BORDER-TOP: #8f9ca4 1px; BORDER-RIGHT: #8f9ca4 1px solid
+}
+#topHead .subBox #webBox A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; MARGIN: 5px 0px 0px 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 3px; DISPLAY: block; HEIGHT: 20px; COLOR: #919ca2; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#topHead .subBox #webBox A:hover {
+	BACKGROUND: url(http://www1.pconline.com.cn/global/2009/images/nav09/tophead_bg.gif) no-repeat 0px -100px; COLOR: #fff
+}
+#topHead .aMuch {
+	COLOR: #d50000; FONT-WEIGHT: bold
+}
+#topHead .aMuch:link {
+	COLOR: #d50000; FONT-WEIGHT: bold
+}
+#topHead .aMuch:visited {
+	COLOR: #d50000; FONT-WEIGHT: bold
+}
+#condition-type #topHead {
+	WIDTH: 990px
+}

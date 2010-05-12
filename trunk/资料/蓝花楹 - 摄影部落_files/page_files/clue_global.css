@@ -1,0 +1,224 @@
+@import url( http://www1.pconline.com.cn/global/2008/css/global.css );
+@import url( http://www1.pconline.com.cn/dp/2008/css/dp_base2008.css );
+#bottom {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#bottom .links {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#bottom {
+	BORDER-TOP: #ccc 1px dotted
+}
+#PCHead090205 {
+	WIDTH: 978px
+}
+.main980 {
+	WIDTH: 980px
+}
+#PCHead090205 .siteNav {
+	WIDTH: 869px
+}
+#PCHead090205 .siteNav01 #ajaxLogon {
+	WIDTH: 170px
+}
+.main980 {
+	MARGIN: 0px auto; WIDTH: 980px
+}
+.topIvy {
+	PADDING-BOTTOM: 5px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 980px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+#clueNav {
+	MARGIN: 0px auto; WIDTH: 980px
+}
+#clueNav .tNav {
+	TEXT-ALIGN: right; PADDING-RIGHT: 10px; HEIGHT: 35px; OVERFLOW: hidden
+}
+#clueNav .tNav .aDp {
+	WIDTH: 160px; FONT: 0px/0 arial; FLOAT: left; HEIGHT: 35px; OVERFLOW: hidden; MARGIN-RIGHT: 64px
+}
+#clueNav .tNav LI {
+	FLOAT: left
+}
+#clueNav .tNav LI A {
+	TEXT-ALIGN: center; WIDTH: 79px; DISPLAY: block; FONT: 14px/40px ËÎÌו; HEIGHT: 35px; OVERFLOW: hidden
+}
+#clueNav .mNav {
+	LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+#clueNav .dNav {
+	LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+#clueNav .mNav {
+	POSITION: relative; PADDING-LEFT: 175px
+}
+#clueNav .mNav .onA {
+	POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 131px; PADDING-RIGHT: 0px; HEIGHT: 41px; TOP: -8px; PADDING-TOP: 0px; LEFT: 40px
+}
+#clueNav .mNav .onfgly {
+	POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 131px; PADDING-RIGHT: 0px; HEIGHT: 41px; TOP: -8px; PADDING-TOP: 0px; LEFT: 40px
+}
+#clueNav .dNav {
+	PADDING-LEFT: 15px
+}
+#clueNav .dNav .keyword {
+	FLOAT: left
+}
+#clueNav .dNav .keyword A {
+	MARGIN-RIGHT: 6px
+}
+#clueNav .dNav .dForm {
+	PADDING-LEFT: 43px; FLOAT: right
+}
+#clueNav .dNav .dForm INPUT {
+	MARGIN: 3px 10px 0px 0px; FLOAT: left
+}
+#clueNav .dNav .dForm SELECT {
+	MARGIN: 3px 10px 0px 0px; FLOAT: left
+}
+#clueNav .dNav .dForm SELECT {
+	MARGIN-TOP: 5px
+}
+#clueNav .dNav .dForm .inpTxt {
+	MARGIN-TOP: 5px
+}
+#clueNav .dNav .dForm .inpBtn {
+	TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px; WIDTH: 68px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 24px; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold
+}
+#clueNav .dNav .dForm .inpTxt {
+	BORDER-BOTTOM: #d0c4bd 1px solid; BORDER-LEFT: #d0c4bd 1px solid; LINE-HEIGHT: 20px; PADDING-LEFT: 2px; WIDTH: 160px; HEIGHT: 18px; BORDER-TOP: #d0c4bd 1px solid; BORDER-RIGHT: #d0c4bd 1px solid
+}
+#clueNav .tNav {
+	BACKGROUND-IMAGE: url(http://www1.pconline.com.cn/global/2009/images/photo/journey/images/navbg.gif); BACKGROUND-REPEAT: no-repeat
+}
+#clueNav .mNav {
+	BACKGROUND-IMAGE: url(http://www1.pconline.com.cn/global/2009/images/photo/journey/images/navbg.gif); BACKGROUND-REPEAT: no-repeat
+}
+#clueNav .dNav {
+	BACKGROUND-IMAGE: url(http://www1.pconline.com.cn/global/2009/images/photo/journey/images/navbg.gif); BACKGROUND-REPEAT: no-repeat
+}
+#clueNav .tNav LI A {
+	BACKGROUND-IMAGE: url(http://www1.pconline.com.cn/global/2009/images/photo/journey/images/navbg.gif); BACKGROUND-REPEAT: no-repeat
+}
+#clueNav .mNav A {
+	BACKGROUND-IMAGE: url(http://www1.pconline.com.cn/global/2009/images/photo/journey/images/navbg.gif); BACKGROUND-REPEAT: no-repeat
+}
+#clueNav .dNav .dForm {
+	BACKGROUND-IMAGE: url(http://www1.pconline.com.cn/global/2009/images/photo/journey/images/navbg.gif); BACKGROUND-REPEAT: no-repeat
+}
+#clueNav .dNav .dForm .inpBtn {
+	BACKGROUND-IMAGE: url(http://www1.pconline.com.cn/global/2009/images/photo/journey/images/navbg.gif); BACKGROUND-REPEAT: no-repeat
+}
+#clueNav .tNav .register {
+	BACKGROUND-IMAGE: url(http://www1.pconline.com.cn/global/2009/images/photo/journey/images/navbg.gif); BACKGROUND-REPEAT: no-repeat
+}
+#clueNav .mNav .onA {
+	BACKGROUND-IMAGE: url(http://www1.pconline.com.cn/global/2009/images/photo/journey/images/navbg.gif); BACKGROUND-REPEAT: no-repeat
+}
+#clueNav .mNav .onfgly {
+	BACKGROUND-IMAGE: url(http://www1.pconline.com.cn/global/2009/images/photo/journey/images/navbg.gif); BACKGROUND-REPEAT: no-repeat
+}
+#clueNav .tNav {
+	BACKGROUND-POSITION: 0px 0px
+}
+#clueNav .mNav {
+	BACKGROUND-POSITION: 0px -50px
+}
+#clueNav .dNav {
+	BACKGROUND-POSITION: 0px -100px
+}
+#clueNav .tNav LI A {
+	BACKGROUND-POSITION: -100px -150px
+}
+#clueNav .tNav LI.liOn A {
+	WIDTH: 80px; BACKGROUND-POSITION: 0px -150px; FONT-WEIGHT: bold
+}
+#clueNav .mNav A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 7px; PADDING-RIGHT: 10px; BACKGROUND-POSITION: right -50px; PADDING-TOP: 0px
+}
+#clueNav .mNav A.aLast {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#clueNav .dNav .dForm {
+	BACKGROUND-POSITION: -1000px 0px
+}
+#clueNav .dNav .dForm .inpBtn {
+	BACKGROUND-POSITION: -200px -150px
+}
+#clueNav .tNav .register {
+	LINE-HEIGHT: 40px; PADDING-LEFT: 8px; BACKGROUND-POSITION: -1046px -97px
+}
+#clueNav .mNav .onA {
+	BACKGROUND-POSITION: -300px -150px
+}
+#clueNav .mNav .onfgly {
+	BACKGROUND-POSITION: -300px -150px
+}
+#clueNav .tNav LI A:link {
+	COLOR: #000
+}
+#clueNav .tNav LI A:visited {
+	COLOR: #000
+}
+#clueNav .tNav LI A:hover {
+	COLOR: #f60
+}
+#clueNav .mNav A.onA:link {
+	COLOR: #f60
+}
+#clueNav .mNav A.onA:visited {
+	COLOR: #f60
+}
+#clueNav .mNav A:hover {
+	COLOR: #976e16
+}
+#clueNav .dNav A:link {
+	COLOR: #976e16
+}
+#clueNav .dNav A:visited {
+	COLOR: #976e16
+}
+#clueNav .dNav {
+	COLOR: #976e16
+}
+#clueNav .tNav .register {
+	COLOR: #976e16
+}
+#clueNav .dNav A:hover {
+	COLOR: #b07200
+}
+#clueNav .mNav A:link {
+	COLOR: #fff
+}
+#clueNav .mNav A:visited {
+	COLOR: #fff
+}
+#clueNav .dNav .dForm .inpBtn {
+	COLOR: #fff
+}
+#clueNav .tNav LI.liOn A:link {
+	COLOR: #fff
+}
+#clueNav .tNav LI.liOn A:visited {
+	COLOR: #fff
+}
+#clueNav .dNav .dForm .inpTxt {
+	COLOR: #666
+}
+TABLE {
+	MARGIN: 0px auto
+}
+.pconline_page I {
+	FONT-STYLE: normal; FONT-SIZE: 12px
+}
+.pconline_page EM {
+	FONT-STYLE: normal; FONT-SIZE: 12px
+}
+.pconline_page .num {
+	COLOR: #f00
+}
+.pconline_page .inputBox {
+	BORDER-BOTTOM: #d4d0c7 1px solid; BORDER-LEFT: #404040 1px solid; LINE-HEIGHT: 14px; MARGIN: 0px 2px; WIDTH: 20px; HEIGHT: 14px; BORDER-TOP: #404040 1px solid; BORDER-RIGHT: #d4d0c7 1px solid
+}
+.pconline_page .inputBut {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; LINE-HEIGHT: 20px; WIDTH: 49px; BACKGROUND: url(http://www1.pconline.com.cn/global/2009/pconline_page.gif) no-repeat 0px -150px; HEIGHT: 24px; COLOR: #000; FONT-SIZE: 12px; VERTICAL-ALIGN: middle; BORDER-TOP: 0px; CURSOR: pointer; BORDER-RIGHT: 0px
+}

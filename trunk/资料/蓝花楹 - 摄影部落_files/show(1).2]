@@ -1,0 +1,5 @@
+try{
+var c=document.getElementById("ivy_div").style;c.width="0px";c.height="1px";c.overflow="hidden";c.display="";c.position="absolute";
+//if(/Netscape/.test(navigator.appName)) document.write("<style>#ivy_div iframe {height:0px;overflow:hidden;}</style>");
+//dummy
+}catch(e){}

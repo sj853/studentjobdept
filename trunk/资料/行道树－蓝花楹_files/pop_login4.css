@@ -1,0 +1,39 @@
+.close {
+	Z-INDEX: 1; POSITION: absolute; PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.6em; PADDING-RIGHT: 0.6em; TOP: 0.5em; RIGHT: 2em; PADDING-TOP: 0.2em
+}
+.loadpop {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.loadpop .input {
+	PADDING-BOTTOM: 15px; FLOAT: left
+}
+.loadpop .login_input INPUT {
+	WIDTH: 200px
+}
+.loadpop H2 {
+	BORDER-BOTTOM: #ddd 1px dashed; POSITION: absolute; TEXT-ALIGN: left; PADDING-BOTTOM: 15px; MARGIN: 0px; PADDING-LEFT: 5px; WIDTH: 294px; PADDING-RIGHT: 35px; TOP: 5px; PADDING-TOP: 10px; LEFT: 24px
+}
+.pop_login .login_input {
+	TEXT-ALIGN: left; COLOR: #016502; FONT-SIZE: 12px
+}
+.pop_login .login_input SPAN {
+	WIDTH: 3.5em; FLOAT: left
+}
+.pop_login {
+	MARGIN-TOP: 70px; PADDING-LEFT: 24px
+}
+.pop_reg {
+	MARGIN-TOP: 2em; DISPLAY: block; FLOAT: left
+}
+.pop_sub {
+	TEXT-ALIGN: left; MARGIN-TOP: 0.3em; MARGIN-LEFT: 3.4em
+}
+.pop_sub INPUT {
+	WIDTH: 5em; PADDING-TOP: 2px
+}
+.pop_rem {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; MARGIN-TOP: 0.5em; MARGIN-LEFT: 3.2em
+}
+#dialog {
+	WIDTH: 380px
+}

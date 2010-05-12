@@ -1,0 +1,108 @@
+.subContent {
+	Z-INDEX: 999; BORDER-BOTTOM: #d0d0d0 1px solid; POSITION: absolute; TEXT-ALIGN: left; BORDER-LEFT: #d0d0d0 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND: #fff; VISIBILITY: hidden; BORDER-TOP: #d0d0d0 1px solid; BORDER-RIGHT: #d0d0d0 1px solid; PADDING-TOP: 2px
+}
+.subContent UL LI {
+	BORDER-BOTTOM: #d0d0d0 1px dotted; LINE-HEIGHT: 24px; TEXT-INDENT: 10px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/arrowy.gif) no-repeat left center
+}
+.subContent UL LI A {
+	WHITE-SPACE: nowrap
+}
+.subContent UL LI.own {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.subNav {
+	PADDING-BOTTOM: 4px; MARGIN: 0px auto; PADDING-LEFT: 5px; WIDTH: 950px; PADDING-RIGHT: 5px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/navshadow.gif) #fff no-repeat center bottom; CLEAR: both; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+.subNav * A.red {
+	COLOR: #d50000
+}
+.subNav #menu {
+	BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/subNavmenu.gif) no-repeat left center; HEIGHT: 32px
+}
+.subNav #menu .menuLogo {
+	FLOAT: left
+}
+.subNav #menu .menuLogo IMG {
+	VERTICAL-ALIGN: middle
+}
+.subNav #menu .menuLink {
+	WIDTH: auto; FLOAT: right; HEIGHT: 27px; PADDING-TOP: 5px
+}
+.subNav #menu .menuLink UL LI {
+	WIDTH: auto; DISPLAY: inline; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/menulinkl.gif) no-repeat left center; FLOAT: left; HEIGHT: 22px; MARGIN-LEFT: 12px
+}
+.subNav #menu .menuLink UL LI I {
+	FONT-STYLE: normal; PADDING-LEFT: 5px; DISPLAY: block; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/menulinkr.gif) no-repeat right center; FLOAT: left
+}
+.subNav #menu .menuLink UL LI I A {
+	MIN-WIDTH: 48px; TEXT-ALIGN: center; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-LEFT: 16px; WIDTH: 48px; PADDING-RIGHT: 5px; DISPLAY: inline; WHITE-SPACE: nowrap; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/ibg.gif) no-repeat left 50%; FLOAT: left; HEIGHT: 22px; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+DIV[class].subNav #menu .menuLink UL LI I A {
+	WIDTH: auto
+}
+.subNav #subMenu {
+	BORDER-BOTTOM: #adb9c2 1px solid; BORDER-LEFT: #adb9c2 1px solid; PADDING-LEFT: 12px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/subMenubg.gif) repeat-x; HEIGHT: 28px; CLEAR: both; BORDER-TOP: #adb9c2 1px solid; BORDER-RIGHT: #adb9c2 1px solid
+}
+.subNav #subMenu UL LI {
+	FLOAT: left
+}
+.subNav #subMenu UL LI A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; DISPLAY: block; HEIGHT: 25px; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 3px; _float: left
+}
+.subNav #subMenu UL LI.liLine {
+	BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/subMenubgline.gif) no-repeat left center; MARGIN-LEFT: 12px
+}
+.subNav #subMenu UL LI.liLine A {
+	PADDING-LEFT: 12px
+}
+.subNav #searchHot {
+	BORDER-BOTTOM: #adb9c2 1px solid; BORDER-LEFT: #adb9c2 1px solid; LINE-HEIGHT: 30px; PADDING-LEFT: 5px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/searchhot.gif) repeat-x; HEIGHT: 30px; BORDER-TOP: #adb9c2 1px; BORDER-RIGHT: #adb9c2 1px solid
+}
+.subNav #searchHot .searchForm {
+	POSITION: relative; TEXT-ALIGN: left; PADDING-LEFT: 65px; FONT-FAMILY: Tahoma; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/qsearch.gif) no-repeat left center; FLOAT: left; HEIGHT: 30px; COLOR: #666769
+}
+.subNav #searchHot .searchForm FORM INPUT {
+	FONT-SIZE: 12px; VERTICAL-ALIGN: middle; _margin-top: 4px
+}
+.subNav #searchHot .searchForm FORM LABEL {
+	FONT-FAMILY: "ËÎÌו"
+}
+.subNav #searchHot .searchForm FORM .txtInput {
+	WIDTH: 120px
+}
+.subNav #searchHot .searchForm FORM .txtSubmit {
+	BORDER-BOTTOM: #a5b2c1 1px solid; BORDER-LEFT: #a5b2c1 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 19px; MARGIN: 0px 15px 0px 5px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/searchbt.gif) repeat-x; HEIGHT: 21px; BORDER-TOP: #a5b2c1 1px solid; CURSOR: pointer; BORDER-RIGHT: #a5b2c1 1px solid; PADDING-TOP: 0px; _line-height: 17px
+}
+.subNav #searchHot .hotLink {
+	FLOAT: left
+}
+.subNav #searchHot .hotLink STRONG {
+	COLOR: #f60
+}
+.subNav #brandMenu {
+	BORDER-BOTTOM: #adb9c2 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #adb9c2 1px solid; LINE-HEIGHT: 28px; BACKGROUND: url(http://www1.pconline.com.cn/global/2008/images/dc/brandMenu.gif) repeat-x; HEIGHT: 28px; BORDER-TOP: #adb9c2 1px; BORDER-RIGHT: #adb9c2 1px solid; PADDING-TOP: 2px
+}
+.subNav #brandMenu STRONG {
+	COLOR: #f60; MARGIN-LEFT: 12px
+}
+.subNav #brandMenu A {
+	TEXT-DECORATION: none
+}
+.subNav #brandAds {
+	BORDER-BOTTOM: #adb9c2 1px solid; BORDER-LEFT: #adb9c2 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #adb9c2 1px; BORDER-RIGHT: #adb9c2 1px solid; PADDING-TOP: 10px
+}
+.subNav #brandAds TABLE TD {
+	TEXT-ALIGN: center; LINE-HEIGHT: 20px
+}
+.subNav #brandAds TABLE TD.grey {
+	COLOR: #a7a6ab
+}
+.subNav #brandAds TABLE TD.grey A {
+	COLOR: #a7a6ab
+}
+.subNav #brandAds TABLE TD.orange {
+	COLOR: #f60
+}
+.subNav #brandAds TABLE TD.orange A {
+	COLOR: #f60
+}

@@ -1,0 +1,543 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	TEXT-ALIGN: left; BACKGROUND: #fff; FONT-SIZE: 12px
+}
+A {
+	COLOR: #111; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #111; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #f60; TEXT-DECORATION: none
+}
+I {
+	FONT-STYLE: normal
+}
+.black {
+	COLOR: #000
+}
+.black A {
+	COLOR: #000
+}
+.black A:link {
+	COLOR: #000
+}
+.black A:visited {
+	COLOR: #000
+}
+A.black:link {
+	COLOR: #000
+}
+A.black:visited {
+	COLOR: #000
+}
+.black A:hover {
+	COLOR: #f60
+}
+A.black:hover {
+	COLOR: #f60
+}
+.red {
+	COLOR: #f00
+}
+.red A:link {
+	COLOR: #f00
+}
+.red A:visited {
+	COLOR: #f00
+}
+A.red:link {
+	COLOR: #f00
+}
+A.red:visited {
+	COLOR: #f00
+}
+.red2 {
+	COLOR: #950002
+}
+.red2 A:link {
+	COLOR: #950002
+}
+.red2 A:visited {
+	COLOR: #950002
+}
+A.red2:link {
+	COLOR: #950002
+}
+A.red2:visited {
+	COLOR: #950002
+}
+.red2 A:hover {
+	COLOR: #f60
+}
+A.red2:hover {
+	COLOR: #f60
+}
+.white {
+	COLOR: #fff
+}
+.white A:link {
+	COLOR: #fff
+}
+.white A:visited {
+	COLOR: #fff
+}
+A.white:link {
+	COLOR: #fff
+}
+A.white:visited {
+	COLOR: #fff
+}
+.white A:hover {
+	COLOR: #ffc
+}
+A.white:hover {
+	COLOR: #ffc
+}
+.grey {
+	COLOR: #5b5b5b
+}
+.grey A:link {
+	COLOR: #5b5b5b
+}
+.grey A:visited {
+	COLOR: #5b5b5b
+}
+A.grey:link {
+	COLOR: #5b5b5b
+}
+A.grey:visited {
+	COLOR: #5b5b5b
+}
+.grey A:hover {
+	COLOR: #f60
+}
+A.grey:hover {
+	COLOR: #f60
+}
+.orange {
+	COLOR: #f60
+}
+.orange A:link {
+	COLOR: #f60
+}
+.orange A:visited {
+	COLOR: #f60
+}
+A.orange:link {
+	COLOR: #f60
+}
+A.orange:visited {
+	COLOR: #f60
+}
+A.orange:hover {
+	COLOR: #09f
+}
+.yellow {
+	COLOR: #ffd600
+}
+.yellow A:link {
+	COLOR: #ffd600
+}
+.yellow A:visited {
+	COLOR: #ffd600
+}
+A.yellow:link {
+	COLOR: #ffd600
+}
+A.yellow:visited {
+	COLOR: #ffd600
+}
+.underline A:link {
+	TEXT-DECORATION: underline
+}
+.underline A:visited {
+	TEXT-DECORATION: underline
+}
+A.underline:link {
+	TEXT-DECORATION: underline
+}
+A.black:visited {
+	TEXT-DECORATION: underline
+}
+.noline A:link {
+	TEXT-DECORATION: none
+}
+.noline A:visited {
+	TEXT-DECORATION: none
+}
+A.noline:link {
+	TEXT-DECORATION: none
+}
+A.noline:visited {
+	TEXT-DECORATION: none
+}
+.inline IMG {
+	DISPLAY: inline
+}
+.f12px {
+	FONT-SIZE: 12px
+}
+.f12px A:link {
+	FONT-SIZE: 12px
+}
+.f12px A:visited {
+	FONT-SIZE: 12px
+}
+.f13px {
+	FONT-SIZE: 13px
+}
+.f13px A:link {
+	FONT-SIZE: 13px
+}
+.f13px A:visited {
+	FONT-SIZE: 13px
+}
+.f14px {
+	FONT-SIZE: 14px
+}
+.f14px A:link {
+	FONT-SIZE: 14px
+}
+.f14px A:visited {
+	FONT-SIZE: 14px
+}
+.center {
+	TEXT-ALIGN: center
+}
+.fleft {
+	FLOAT: left
+}
+.fright {
+	FLOAT: right
+}
+DL {
+	LIST-STYLE-TYPE: none
+}
+DT {
+	LIST-STYLE-TYPE: none
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.b {
+	FONT-WEIGHT: bold
+}
+.clear {
+	HEIGHT: 0px; CLEAR: both; FONT-SIZE: 0px
+}
+.justify {
+	TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; WHITE-SPACE: normal; WORD-BREAK: break-all
+}
+.spanclass {
+	POSITION: absolute; LINE-HEIGHT: 5px; WIDTH: 5px; DISPLAY: none; FLOAT: left; HEIGHT: 5px; FONT-SIZE: 5px; OVERFLOW: hidden; TOP: -15px; LEFT: -15px
+}
+.lh14 {
+	LINE-HEIGHT: 14px
+}
+.lh15 {
+	LINE-HEIGHT: 15px
+}
+.lh16 {
+	LINE-HEIGHT: 16px
+}
+.lh17 {
+	LINE-HEIGHT: 17px
+}
+.lh18 {
+	LINE-HEIGHT: 18px
+}
+.lh19 {
+	LINE-HEIGHT: 19px
+}
+.lh20 {
+	LINE-HEIGHT: 20px
+}
+.lh21 {
+	LINE-HEIGHT: 21px
+}
+.lh22 {
+	LINE-HEIGHT: 22px
+}
+.lh23 {
+	LINE-HEIGHT: 23px
+}
+.lh24 {
+	LINE-HEIGHT: 24px
+}
+.lh25 {
+	LINE-HEIGHT: 25px
+}
+.lh26 {
+	LINE-HEIGHT: 26px
+}
+.lh27 {
+	LINE-HEIGHT: 27px
+}
+.lh28 {
+	LINE-HEIGHT: 28px
+}
+.lh29 {
+	LINE-HEIGHT: 29px
+}
+.hack2px {
+	HEIGHT: 2px; OVERFLOW: hidden
+}
+.hack3px {
+	HEIGHT: 3px; OVERFLOW: hidden
+}
+.hack4px {
+	HEIGHT: 4px; OVERFLOW: hidden
+}
+.hack5px {
+	HEIGHT: 5px; OVERFLOW: hidden
+}
+.hack6px {
+	HEIGHT: 6px; OVERFLOW: hidden
+}
+.hack7px {
+	HEIGHT: 7px; OVERFLOW: hidden
+}
+.hack8px {
+	HEIGHT: 8px; OVERFLOW: hidden
+}
+.hack9px {
+	HEIGHT: 9px; OVERFLOW: hidden
+}
+.hack10px {
+	HEIGHT: 10px; OVERFLOW: hidden
+}
+.hack11px {
+	HEIGHT: 11px; OVERFLOW: hidden
+}
+.hack12px {
+	HEIGHT: 12px; OVERFLOW: hidden
+}
+.hack13px {
+	HEIGHT: 13px; OVERFLOW: hidden
+}
+.hack14px {
+	HEIGHT: 14px; OVERFLOW: hidden
+}
+.hack15px {
+	HEIGHT: 15px; OVERFLOW: hidden
+}
+.hack20px {
+	HEIGHT: 20px; OVERFLOW: hidden
+}
+.letter1 {
+	LETTER-SPACING: 1px
+}
+.letter2 {
+	LETTER-SPACING: 2px
+}
+.letter5 {
+	LETTER-SPACING: 5px
+}
+.letter6 {
+	LETTER-SPACING: 6px
+}
+.letter12 {
+	LETTER-SPACING: 12px
+}
+.word0 {
+	WORD-SPACING: 0px
+}
+.word5 {
+	WORD-SPACING: 5px
+}
+.word8 {
+	WORD-SPACING: 8px
+}
+.word10 {
+	WORD-SPACING: 10px
+}
+.word12 {
+	WORD-SPACING: 12px
+}
+.word15 {
+	WORD-SPACING: 15px
+}
+.word16 {
+	WORD-SPACING: 16px
+}
+.word18 {
+	WORD-SPACING: 18px
+}
+.word20 {
+	WORD-SPACING: 20px
+}
+.word22 {
+	WORD-SPACING: 22px
+}
+.word24 {
+	WORD-SPACING: 24px
+}
+.nowrap {
+	WHITE-SPACE: nowrap
+}
+.top0px {
+	BORDER-TOP-WIDTH: 0px !important
+}
+.bottom0px {
+	BORDER-BOTTOM-WIDTH: 0px !important
+}
+.box_bor1px {
+	BORDER-BOTTOM: #b7d6ea 1px solid; BORDER-LEFT: #b7d6ea 1px solid; BORDER-TOP: #b7d6ea 1px solid; BORDER-RIGHT: #b7d6ea 1px solid
+}
+.dot_but {
+	BACKGROUND: url(http://www1.pconline.com.cn/2008/images/dot_line2.gif) repeat-x 50% bottom
+}
+.dot_mid {
+	BACKGROUND: url(http://www1.pconline.com.cn/2008/images/dot_line1.gif) repeat-y 50% 50%
+}
+.show {
+	DISPLAY: block
+}
+.hidden {
+	DISPLAY: none
+}
+.box980 {
+	MARGIN: 0px auto; WIDTH: 980px; OVERFLOW: hidden
+}
+.boxTopbar {
+	TEXT-ALIGN: center; HEIGHT: 27px
+}
+.boxAd985 {
+	WIDTH: 985px; OVERFLOW: hidden
+}
+.boxAd744 {
+	WIDTH: 744px; FLOAT: left; HEIGHT: 90px; OVERFLOW: hidden; MARGIN-RIGHT: 10px
+}
+.boxAd226 {
+	WIDTH: 224px; FLOAT: left; HEIGHT: 88px
+}
+.boxAd225 {
+	WIDTH: 225px; FLOAT: left; HEIGHT: 90px; OVERFLOW: hidden
+}
+.boxNav {
+	BACKGROUND: url(../images/dp_bg.jpg) no-repeat; HEIGHT: 48px; OVERFLOW: hidden
+}
+.boxNav .boxLogo {
+	WIDTH: 200px; FLOAT: left
+}
+.boxNav .boxSearch {
+	WIDTH: 410px; FLOAT: right; OVERFLOW: hidden; PADDING-TOP: 12px
+}
+.boxNav .boxSearch INPUT {
+	BORDER-BOTTOM: #d0c4bd 1px solid; BORDER-LEFT: #d0c4bd 1px solid; BORDER-TOP: #d0c4bd 1px solid; BORDER-RIGHT: #d0c4bd 1px solid
+}
+.boxNav .boxSearch .inpTxt {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; WIDTH: 165px; PADDING-RIGHT: 0px; HEIGHT: 18px; COLOR: #999; PADDING-TOP: 2px
+}
+.boxNav .boxSearch .inpSelect {
+	WIDTH: 80px
+}
+.boxNav .boxSearch .btnSea {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 66px; FONT: bold 12px/24px "ËÎÌו"; BACKGROUND: url(../images/dp_bg.jpg) no-repeat -225px -940px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 24px; COLOR: #51412c; BORDER-LEFT-WIDTH: 0px
+}
+.boxMenu {
+	BACKGROUND: url(../images/dp_bg2.gif) repeat-x; HEIGHT: 30px; OVERFLOW: hidden
+}
+.boxMenu A {
+	LINE-HEIGHT: 31px; WIDTH: 30px; COLOR: #f8f2e5
+}
+.boxMenu A:hover {
+	COLOR: #fc0
+}
+.boxMenu .iInd {
+	TEXT-ALIGN: center; WIDTH: 50px; DISPLAY: block; BACKGROUND: url(../images/dp_bg2.gif) repeat-x 0px -35px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+.boxMenu .iLis {
+	DISPLAY: block; FLOAT: left
+}
+.boxMenu .iLis A {
+	MARGIN-RIGHT: 8px
+}
+.boxMenu .iReg {
+	PADDING-LEFT: 15px; WIDTH: 90px; DISPLAY: block; BACKGROUND: url(../images/dp_ic.gif) no-repeat 5px 12px; FLOAT: right
+}
+.boxMenu .iReg A {
+	COLOR: #fc0
+}
+.boxUdmenu {
+	MARGIN-TOP: 6px; BACKGROUND: url(../images/dp_bg.jpg) no-repeat 0px -50px; HEIGHT: 11px
+}
+#bottom {
+	MARGIN: 0px auto; WIDTH: 980px; HEIGHT: 210px; OVERFLOW: hidden
+}
+#bottom A {
+	COLOR: #5b5b5b
+}
+#bottom A:hover {
+	COLOR: #f60
+}
+#bottom .links {
+	TEXT-ALIGN: center; LINE-HEIGHT: 38px; HEIGHT: 37px; OVERFLOW: hidden
+}
+#bottom .links A {
+	COLOR: #023199; TEXT-DECORATION: none
+}
+#bottom .links A:hover {
+	COLOR: #f60
+}
+#bottom .links IMG {
+	MARGIN-TOP: 8px; FLOAT: left
+}
+#bottom .links A.pmarket {
+	TEXT-ALIGN: center; LINE-HEIGHT: 24px; MARGIN-TOP: 8px; WIDTH: 111px; BACKGROUND: url(http://www.pconline.com.cn/images/market_sbg.gif) no-repeat; FLOAT: left; HEIGHT: 21px; OVERFLOW: hidden
+}
+#bottom .sites {
+	TEXT-ALIGN: center; HEIGHT: 28px; COLOR: #5b5b5b; PADDING-TOP: 12px
+}
+#bottom .left {
+	WIDTH: 369px; FLOAT: left
+}
+#bottom .left P {
+	TEXT-ALIGN: center; LINE-HEIGHT: 20px; WIDTH: 111px; FLOAT: right; HEIGHT: 150px; COLOR: #5b5b5b
+}
+#bottom .left P IMG {
+	WIDTH: 111px; HEIGHT: 43px
+}
+#bottom .mid {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 16px; WIDTH: 301px; FLOAT: left; HEIGHT: 250px; COLOR: #5b5b5b
+}
+#bottom .right {
+	WIDTH: 81px; FLOAT: left; HEIGHT: 100px; PADDING-TOP: 3px
+}
+#bottom .right IMG {
+	WIDTH: 40px; HEIGHT: 53px
+}
+.navDp .navWrap {
+	WIDTH: 978px
+}
+.navDp .navChannel .navTxt {
+	WIDTH: 870px
+}
+.navDp .navChannel .navTxt I {
+	MARGIN-RIGHT: 1px
+}
+.navDp .navWrap .moreNav .sIcon {
+	MARGIN: 0px auto
+}
+.navDp .navChannel .sMarket A {
+	MARGIN: 0px 1px
+}
+.navDp .navWrap A:link {
+	COLOR: #000
+}
+.navDp .navWrap A:visited {
+	COLOR: #000
+}
+.navDp .navWrap A:hover {
+	COLOR: #f60
+}
