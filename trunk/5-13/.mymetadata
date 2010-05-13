@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="yuanlin"
+  id="myeclipse.1273284358734"
+  context-root="/yuanlin"
+  j2ee-spec="5.0"
+  archive="yuanlin.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
