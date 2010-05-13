@@ -1,0 +1,3 @@
+//日期:访问量（allViewNum）
+date=4:46 PM 5/12/2010:allViewNum=1001
+date=4:46 PM 5/12/2010:allViewNum=1012
