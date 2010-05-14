@@ -16,10 +16,12 @@ public class SessionStatistics implements HttpSessionListener {
 	public void sessionCreated(HttpSessionEvent arg0) {
 		onLineNum++;
 		ContextStatistics.allViewNum++;
+		
 	}
 
 	public void sessionDestroyed(HttpSessionEvent arg0) {
 		onLineNum--;
+	System.out.println(onLineNum);
 	}
 
 	public static long getOnLineNum() {

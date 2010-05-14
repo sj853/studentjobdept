@@ -15,12 +15,13 @@ public class ContextStatistics implements ServletContextListener {
 	public void contextDestroyed(ServletContextEvent arg0) {
 		// 结束的时候就将访问量写入文件
 		// recordDataToIO(allViewNum);
-		PersistenceStatistics.persistentData("allViewNum",allViewNum);
+		PersistenceStatistics.persistentData("allViewNum", allViewNum);
 	}
 
 	public void contextInitialized(ServletContextEvent arg0) {
 		// 启动时就从文件中读取访问量
-		allViewNum = PersistenceStatistics.readData("allViewNum");
+		// allViewNum = PersistenceStatistics.readData("allViewNum");
+		allViewNum = PersistenceStatistics.readData();
 	}
 
 	public static long getAllViewNum() {
