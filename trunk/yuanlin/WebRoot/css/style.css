@@ -1,16 +1,11 @@
 
-/*
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
-*/
 
 body {
 	margin: 0;
 	background: #7A287A url('../main_image/img02.jpg') repeat  left top;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 13px;
-	color: #C752C7;
+	color: #FFFFCC;
 	text-align:center;
 }
 
@@ -345,4 +340,25 @@ hr { display: none; }
 
     .boxy-wrapper .question { width: 350px; min-height: 80px; }
     .boxy-wrapper .answers { text-align: right; }
+/*message_table*/
 
+.msg_table{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFCC;
+	background-color: #180818;
+	border:1px solid #FFFFCC;
+}
+
+.msg_table tr td{
+text-align:center;
+border:1px solid #FFFFCC;
+}
+
+
+#write{
+	float:right;
+	margin-right:0px;
+	text-decoration:none;
+}
