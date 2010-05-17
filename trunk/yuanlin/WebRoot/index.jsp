@@ -10,7 +10,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Violet Ray by Free CSS Templates</title>
+<title>蓝花楹</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <script type="text/javascript" src="js/jquery-1.4.2.js"></script>
@@ -113,17 +113,17 @@
   
 	 <div id="mainContent">
 		
-	    <div id="content" class="showContent">1居中头部+导航+尾部——<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><a href="http://www.aa25.cn">标准之路www.aa25.cn</a></div>
-		<div id="content">2列固定宽度居中头部+导航+尾部——<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><a href="http://www.aa25.cn">标准之路www.aa25.cn</a></div>
-		<div id="content" >3列固定宽度居中头部+导航+尾部——<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><a href="http://www.aa25.cn">标准之路www.aa25.cn</a></div>
-		<div id="content">4列固定度居中头部+导航+尾部——<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><a href="http://www.aa25.cn">标准之路www.aa25.cn</a></div>
-		<div id="content">5列固定宽度居中头部+导航+尾部—<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>—<a href="http://www.aa25.cn">标准之路www.aa25.cn</a></div>
+	    <div id="content" class="showContent">——<br><br><br><br><br><br>首页介绍<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+		<div id="content">—<br><br><br><br><br><br><br><br><br><br><br><br>公司概况<br><br><br><br><br></div>
+		<div id="content" >——<br><br><br><br><br><br><br><br><br><br><br><br>业务范围<br><br><br><br><br></div>
+		<div id="content">——<br><br><br><br><br><br><br><br><br><br><br><br>基地介绍<br><br><br></div>
+		<div id="content">—<br><br><br><br><br><br><br><br><br><br><br><br>植物知识<br><br><br>—</div>
         <div id="content">
       
-       		<div><input type="button" id="write" value="我要留言"/></div>
+       		<div><a href="#" id="write">我要留言</a></div>
 	   			
                <div id="contents">
-                   <table>
+                   <table class="msg_table">
                    </table>
                </div>
 	   
