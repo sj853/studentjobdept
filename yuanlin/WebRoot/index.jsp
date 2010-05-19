@@ -111,7 +111,7 @@
 
 
   
-	 <div id="mainContent">
+<div id="mainContent">
 		
 	    <div id="content" class="showContent">——<br><br><br><br><br><br>首页介绍<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 		<div id="content">—<br><br><br><br><br><br><br><br><br><br><br><br>公司概况<br><br><br><br><br></div>
