@@ -113,14 +113,14 @@
   
 <div id="mainContent">
 		
-	    <div id="content" class="showContent">——<br><br><br><br><br><br>首页介绍<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
-		<div id="content">—<br><br><br><br><br><br><br><br><br><br><br><br>公司概况<br><br><br><br><br></div>
-		<div id="content" >——<br><br><br><br><br><br><br><br><br><br><br><br>业务范围<br><br><br><br><br></div>
-		<div id="content">——<br><br><br><br><br><br><br><br><br><br><br><br>基地介绍<br><br><br></div>
-		<div id="content">—<br><br><br><br><br><br><br><br><br><br><br><br>植物知识<br><br><br>—</div>
+	    <div id="content" class="showContent"><br><br><br><br><br><br><br><br><br><br>首页介绍<br><br><br><br><br><br><br><br><br><br><br><br></div>
+		<div id="content"><br><br><br><br><br><br><br><br><br><br>公司概况<br><br><br><br><br><br><br><br><br><br><br><br></div>
+		<div id="content" ><br><br><br><br><br><br><br><br><br><br>业务范围<br><br><br><br><br><br><br><br><br><br><br><br></div>
+		<div id="content"><br><br><br><br><br><br><br><br><br><br>基地介绍<br><br><br><br><br><br><br><br><br><br><br><br></div>
+		<div id="content"><br><br><br><br><br><br><br><br><br><br>植物知识<br><br><br><br><br><br><br><br><br><br><br><br></div>
         <div id="content">
       
-       		<div><a href="#" id="write">我要留言</a></div>
+       		<div style="margin: 10px 0 10px 0"><a href="#" id="write">我要留言</a></div>
 	   			
                <div id="contents">
                    <table class="msg_table">
@@ -142,7 +142,7 @@
 
 
 <div id="footer">
-	<p>Copyright &copy; MoonStudio All Rights Reserved.   |  在线人数：<%=SessionStatistics.getOnLineNum()%>  |  访问量：<%=ContextStatistics.getAllViewNum()%> </p>
+	<p>Copyright &copy; MoonStudio All Rights Reserved.   |  在线人数：<font color="#ff0000" size="4"><%=SessionStatistics.getOnLineNum()%> </font> |  访问量：<font color="#ff0000" size="4"><%=ContextStatistics.getAllViewNum()%> </font></p>
  </div>
 <!-- end #footer -->
 

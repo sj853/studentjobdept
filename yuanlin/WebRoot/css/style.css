@@ -277,7 +277,7 @@ hr { display: none; }
 	height:150%;
 	background:#000000;
 	position:absolute;
-	filter:Alpha(Opacity=90);
+	filter:Alpha(Opacity=60);
 	opacity:0.9;
 	display:none;
 	
