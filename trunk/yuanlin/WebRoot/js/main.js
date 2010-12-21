@@ -3,8 +3,12 @@ var totalPage = 1;
 var contentVal = null;
 var nameVal = null;
 $(document).ready(function(){
-	
- 
+
+if(!$.browser.msie){
+$("#tipExp").slideToggle("slow",function(){
+	$("#tipExp").slideToggle(3000);
+});
+}
   
 $('#s3slider').s3Slider({ 
       timeOut: 5000 

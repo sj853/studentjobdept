@@ -19,16 +19,20 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<div id="tipExp"><img src="main_image/tip.gif"> </div>
+
+
+
  <div id="tipWin"  style="z-index:9999;">
             <table cellspacing="0" cellpadding="0" border="0" class="boxy-wrapper fixed" style="z-index: 1339; visibility: visible; left: 440px; top: 89.5px; opacity: 1;">
   <tbody>
     <tr>
-      <td class="top-left"></td>
-      <td class="top"></td>
-      <td class="top-right"></td>
+      <td class="top-left"><br></td>
+      <td class="top"><br></td>
+      <td class="top-right"><br></td>
     </tr>
     <tr>
-      <td class="left"></td>
+      <td class="left"><br></td>
       <td class="boxy-inner">
       	<div style="display: block;" class="boxy-content">
 		<p>称呼:</p>
@@ -38,13 +42,13 @@
             <input type="button" value="留言" id="ok">
             <input type="button" value="取消" id="cancel">
           
-        </div></td>
-      <td class="right"></td>
+        </div><br></td>
+      <td class="right"><br></td>
     </tr>
     <tr>
-      <td class="bottom-left"></td>
-      <td class="bottom"></td>
-      <td class="bottom-right"></td>
+      <td class="bottom-left"><br></td>
+      <td class="bottom"><br></td>
+      <td class="bottom-right">e<br></td>
     </tr>
   </tbody>
 </table>
