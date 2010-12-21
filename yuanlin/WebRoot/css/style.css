@@ -283,6 +283,14 @@ hr { display: none; }
 	
 }
 
+/*showExplore version*/
+#tipExp{
+	display:none;
+	position: absolute;
+	top:1px;
+	left:50%;
+}
+
 
 /*showWin*/
 
